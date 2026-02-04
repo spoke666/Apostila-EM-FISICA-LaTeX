@@ -1,0 +1,36 @@
+% config/estilo_folha_rosto.tex
+
+\newcommand{\imprimirfolhaderosto}{
+    \begin{titlepage}
+        \begin{center}
+            % 1. Autor
+            {\sffamily\large\meuautor}
+            
+            \vspace*{\fill}
+            
+            % 2. Título
+            {\sffamily\bfseries\LARGE\meutitulo}
+            
+            \vspace*{\fill}
+            
+            % 3. Bloco do Preâmbulo (Alinhado à direita)
+            \hspace{.45\textwidth}
+            \begin{minipage}{.5\textwidth}
+                \setstretch{1.0} % Espaçamento simples para o preâmbulo
+                \small
+                \meupreambulo\ \textbf{\minhainstituicao}.
+                
+                \vspace{0.5cm}
+                
+                %{Orientador: \meuorientador \par}
+            \end{minipage}
+            
+            \vspace*{\fill}
+            
+            % 4. Rodapé
+            {\large\meulocal}
+            \par
+            {\large\meudata}
+        \end{center}
+    \end{titlepage}
+}

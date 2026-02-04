@@ -1,0 +1,36 @@
+\babel@toc {brazilian}{}\relax 
+\contentsline {chapter}{\numberline {1}Introdução à Física: Grandezas Físicas}{1}{chapter.4}%
+\contentsline {section}{\numberline {1.1}Fenômenos Observáveis}{1}{section.5}%
+\contentsline {section}{\numberline {1.2}O Sistema Internacional de Unidades (SI)}{1}{section.6}%
+\contentsline {subsection}{\numberline {1.2.1}Conversão de Unidades e Regra de Três}{2}{subsection.9}%
+\contentsline {subsection}{\numberline {1.2.2}Método do Fator de Conversão (Cancelamento de Unidades)}{2}{subsection.10}%
+\contentsline {section}{\numberline {1.3}Notação Científica e Ordem de Grandeza}{2}{section.11}%
+\contentsline {section}{\numberline {1.4}Ordem de Grandeza}{3}{section.19}%
+\contentsline {section}{\numberline {1.5}Questões Conceituais}{4}{section.20}%
+\contentsline {section}{\numberline {1.6}Exercícios de Fixação}{5}{section.25}%
+\contentsline {section}{\numberline {1.7}Problemas Aplicados}{6}{section.45}%
+\contentsline {chapter}{\numberline {2}Cinemática}{7}{chapter.54}%
+\contentsline {section}{\numberline {2.1}Conceitos Fundamentais}{7}{section.55}%
+\contentsline {subsection}{\numberline {2.1.1}Referencial e Sistemas de Coordenadas}{7}{subsection.56}%
+\contentsline {subsubsection}{Sistema de Coordenadas e a Origem}{7}{subsubsection*.57}%
+\contentsline {subsubsection}{Exemplo Prático}{8}{subsubsection*.60}%
+\contentsline {subsection}{\numberline {2.1.2}Ponto Material e Corpo Extenso}{8}{subsection.61}%
+\contentsline {subsubsection}{Critério de Diferenciação}{8}{subsubsection*.62}%
+\contentsline {subsection}{\numberline {2.1.3}Trajetória}{8}{subsection.63}%
+\contentsline {section}{\numberline {2.2}Tipos de Movimento}{9}{section.64}%
+\contentsline {section}{\numberline {2.3}Velocidade}{9}{section.65}%
+\babel@toc {brazilian}{}\relax 
+\babel@toc {brazilian}{}\relax 
+\babel@toc {brazilian}{}\relax 
+\babel@toc {brazilian}{}\relax 
+\babel@toc {brazilian}{}\relax 
+\babel@toc {brazilian}{}\relax 
+\renewcommand {\chaptername }{Apêndice}
+\contentsline {chapter}{\numberline {A}Sistema Internacional de Unidades}{11}{appendix.68}%
+\contentsline {chapter}{\numberline {B}Prefixos}{12}{appendix.71}%
+\contentsline {chapter}{\numberline {C}Alfabeto Grego}{13}{appendix.73}%
+\contentsline {chapter}{\numberline {D}Fatores de Conversão}{14}{appendix.75}%
+\contentsline {chapter}{\numberline {E}Constantes Físicas Fundamentais}{15}{appendix.78}%
+\contentsline {section}{\numberline {E.1}Constantes Universais}{15}{section.79}%
+\contentsline {section}{\numberline {E.2}Propriedades Térmicas da Matéria}{15}{section.81}%
+\contentsfinish 

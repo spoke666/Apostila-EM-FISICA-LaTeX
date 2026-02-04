@@ -1,0 +1,202 @@
+\chapter{Introdução à Física: Grandezas Físicas}
+\label{cap:introducao}
+
+A Física é a ciência que estuda os fenômenos fundamentais da natureza, buscando leis gerais que descrevam o comportamento da matéria e da energia \parencite{nussenzveig2002}.
+
+Compreender o funcionamento do universo requer a medição precisa de diversas propriedades físicas, conhecidas como \textbf{grandezas físicas}. Por exemplo, a \textit{massa}, o \textit{tempo} e o \textit{comprimento} são grandezas fundamentais que descrevem aspectos essenciais dos objetos e eventos ao nosso redor. 
+
+\section{Fenômenos Observáveis}
+Os fenômenos da natureza podem ser classificados em dois tipos principais: 
+\begin{itemize}
+    \item \textbf{Fenômeno Físico:} Ocorre sem alterar a estrutura íntima da matéria. Exemplo: A queda de um corpo ou a mudança de estado físico da água.
+    \item \textbf{Fenômeno Químico:} Altera a composição da matéria. Exemplo: A combustão de uma madeira.
+\end{itemize}
+
+\section{O Sistema Internacional de Unidades (SI)}
+Para que a comunicação científica seja universal, utiliza-se o SI (Sistema Internacional de Unidades de Medida). Esse sistema foi criado com o intuito de padronizar e calibrar instrumentos no mundo todo. Essas grandezas são importantíssimas; vale a pena decorar, guardar e destacar, pois as revisitaremos no decorrer do ano. Na tabela \ref{tab:SI}, podemos observar as unidades que estudaremos:
+
+\begin{table}[H]
+    \centering
+    \begin{threeparttable}
+        \caption{Grandezas Fundamentais no SI}
+        \label{tab:SI}
+        \sffamily
+        \begin{tabular}{llc}
+            \toprule
+            \textbf{Grandeza} & \textbf{Unidade (SI)}           & \textbf{Símbolo} \\
+            \midrule
+            Comprimento       & metro                          & \unit{m}         \\
+            Massa             & quilograma                     & \unit{kg}        \\
+            Tempo             & segundo                        & \unit{s}         \\
+            Velocidade        & metro por segundo              & \unit{m/s}       \\
+            Aceleração        & metro por segundo ao quadrado  & \unit{m/s^2}     \\
+            Força             & newton                         & \unit{N}         \\
+            Energia           & joule                          & \unit{J}         \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}[flushleft]
+            \small
+            \item \textbf{Nota:} Para uma lista completa e detalhada, consulte o \hyperref[apend:unidades_SI]{Apêndice~\ref{apend:unidades_SI}}.
+        \end{tablenotes}
+    \end{threeparttable}
+\end{table}
+
+\subsection{Conversão de Unidades e Regra de Três}
+
+Nem sempre os dados de um problema estarão no SI. Para converter unidades de forma segura, a **regra de três simples** é a ferramenta mais confiável, pois utiliza uma relação de equivalência conhecida (fator de conversão) para encontrar o valor desejado.
+
+
+
+**Exemplo: Converter 250 cm para metros.**
+Sabemos que $1$ \unit{m} equivale a $100$ \unit{cm}. Montamos a proporção alinhando as unidades iguais:
+
+\begin{align*}
+    1 \text{ m}   & \text{ --- } 100 \text{ cm} \\
+    x \text{ m}   & \text{ --- } 250 \text{ cm} \\
+    100 \cdot x   & = 1 \cdot 250 \implies x = \frac{250}{100} = 2,50 \text{ m}
+\end{align*}
+
+Para conversões comuns, consulte a tabela de fatores no \hyperref[apend:fatores_conversao]{Apêndice~\ref{apend:fatores_conversao}}.
+
+\subsection{Método do Fator de Conversão (Cancelamento de Unidades)}
+
+Para conversões múltiplas ou unidades compostas, o método mais eficiente é multiplicar o valor original por uma fração de equivalência (fator de conversão). O objetivo é posicionar a unidade que queremos "cortar" no lado oposto da fração.
+
+**Exemplo: Converter a velocidade de \qty{72}{km/h} para \unit{m/s}.**
+
+Precisamos de dois fatores: um para distância (\unit{1}{km} = \unit{1000}{m}) e um para tempo (\unit{1}{h} = \unit{3600}{s}).
+
+\begin{equation*}
+    v = 72 \text{ \cancel{km}} / \text{\cancel{h}} \cdot \underbrace{\left( \frac{1000 \text{ m}}{1 \text{ \cancel{km}}} \right)}_{\text{Fator 1}} \cdot \underbrace{\left( \frac{1 \text{ \cancel{h}}}{3600 \text{ s}} \right)}_{\text{Fator 2}}
+\end{equation*}
+
+Calculando os valores:
+\begin{equation*}
+    v = \frac{72 \cdot 1000 \text{ m}}{3600 \text{ s}} = \frac{72000}{3600} \text{ m/s} = 20,0 \text{ m/s}
+\end{equation*}
+
+Este método reduz drasticamente a chance de erro ao lidar com unidades de área ($\unit{m^2}$) ou volume ($\unit{m^3}$), pois basta elevar o fator de conversão à potência desejada. Observe:
+\begin{equation*}
+    1 \text{ m}^2 = \left( \frac{100 \text{ cm}}{1 \text{ m}} \right)^2 = \frac{100^2 \text{ cm}^2}{1^2 \text{ m}^2} = 10.000 \text{ cm}^2  
+\end{equation*}
+
+\section{Notação Científica e Ordem de Grandeza}
+Na física, lidamos com dimensões que variam do átomo às galáxias. Utilizamos a notação científica:
+\begin{equation}
+    N \times 10^{n}, \quad \text{sendo } 1 \leq N < 10
+\end{equation}
+
+\textbf{Aplicações:} Expressar a velocidade da luz ($3 \times 10^8$ m/s) ou a massa de um elétron de forma simplificada.
+
+Na prática, o objetivo é reduzir o número de zeros, facilitando cálculos e comparações. Tudo que precisa ser feito é deslocar a vírgula para a direita ou esquerda, dependendo se o número é maior ou menor que 10. Como podemos ver:
+\begin{itemize}
+    \item Para números menores que 10, deslocamos a vírgula para a direita, o que resulta em um expoente negativo. Cada casa deslocada corresponde a uma unidade a mais no expoente negativo.
+        \begin{enumerate}
+            \item Deslocar a vírgula em 1 casa: $0,52 = 5,2 \times 10^{-1}$
+            \item Deslocar a vírgula em 2 casas: $0,0502 = 5,02 \times 10^{-2}$
+            \item Deslocar a vírgula em 3 casas: $0,008 = 8 \times 10^{-3}$
+        \end{enumerate}
+        \textbf{Observe que o número antes do "x10"  sempre fica entre 1 e 10.}
+    \item Para números maiores que 10, deslocamos a vírgula para a esquerda, o que resulta em um expoente positivo. Cada casa deslocada corresponde a uma unidade a mais no expoente positivo. 
+        \begin{enumerate}
+            \item Deslocar a vírgula em 1 casa: $52 = 5,2 \times 10^{1}$
+            \item Deslocar a vírgula em 2 casas: $502 = 5,02 \times 10^{2}$
+            \item Deslocar a vírgula em 3 casas: $4500000 = 4,5 \times 10^{6}$
+        \end{enumerate}
+        \textbf{Observe que o zero entre dois números, deve ser expresso após a vírgula e entra na contagem.}
+\end{itemize}
+
+\section{Ordem de Grandeza}
+A ordem de grandeza é uma forma de classificar a magnitude de um número, expressando-a  numa potência de 10. Ela é útil para comparar quantidades e entender a escala dos fenômenos físicos. A ordem de grandeza é determinada pelo expoente na notação científica mais o fator de proximidade logarítmico.
+\begin{itemize}
+    \item Se o número $N$ na notação científica $N \times 10^{n}$ for menor que $\sqrt{10}$, a ordem de grandeza é o expoente $n$.
+    
+        \textbf{Exemplo 1:} $3,2 \times 10^{4}$, como $3,1 < \sqrt{10}$ (3,1 menor que ..), a ordem de grandeza é 4.
+
+        Resposta: [OG]=4. (OG = Ordem de Grandeza)
+
+        \textbf{Exemplo 2:} $1,7 \times 10^{-3}$, como $1,7 < \sqrt{10}$ (1,7 menor que ..), a ordem de grandeza é -3.
+    
+        Resposta: [OG]=-3.
+
+    \item Se o número $N$ for maior ou igual a $\sqrt{10}$, a ordem de grandeza é o expoente $n + 1$.
+    
+        \textbf{Exemplo 1:} $6,5 \times 10^{8}$, como $6,5 \geq \sqrt{10}$ (6,5 maior que ..), a ordem de grandeza é $8 + 1 = 9$.
+
+        Resposta: [OG]=9.
+    
+        \textbf{Exemplo 2:} $8,9 \times 10^{-4}$, como $8,9 \geq \sqrt{10}$ (8,9 maior que ..), a ordem de grandeza é $-4 + 1 = -3$.
+   
+        Resposta: [OG]=-3.
+\end{itemize}
+\textbf{Observação:} A raiz quadrada de 10 ($\sqrt{10}$) é aproximadamente 3,16. Portanto, ao determinar a ordem de grandeza, compare o valor de $N$ com 3,16 para decidir se deve usar o expoente ou somar 1. Segundo detalhe, cuidado com números negativos, pois ao somar 1 em um número negativo, o valor se aproxima de zero.
+
+\section{Questões Conceituais}
+
+\begin{enumerate}
+    \item Explique por que a criação do Sistema Internacional de Unidades (SI) foi um marco importante para o desenvolvimento tecnológico e comercial entre as nações.
+    \item Diferencie fenômeno físico de fenômeno químico, citando um exemplo do cotidiano para cada um que não tenha sido mencionado no texto.
+    \item No estudo da ordem de grandeza, por que utilizamos o valor de $\sqrt{10} \approx 3,16$ como critério de corte?
+    \item O que define se um número está ou não escrito corretamente em notação científica? Cite o intervalo permitido.
+\end{enumerate}
+
+\clearpage
+
+\section{Exercícios de Fixação}
+
+\subsection*{Notação Científica e Ordem de Grandeza}
+\begin{enumerate}[resume]
+    \item Escreva os valores abaixo em notação científica:
+        \begin{enumerate}
+            \item $0,00000000025$ \unit{m} (raio atômico)
+            \item $149.600.000.000$ \unit{m} (distância Terra-Sol)
+            \item $0,000001$ \unit{s} (tempo de um processo eletrônico)
+            \item $5.970.000.000.000.000.000.000.000$ \unit{kg} (massa da Terra)
+            \item $0,00000000016$ \unit{C} (carga elementar)
+        \end{enumerate}
+    \item Determine a Ordem de Grandeza (OG) para cada item do exercício anterior.
+\end{enumerate}
+
+\subsection*{Conversão de Unidades (SI)}
+\begin{enumerate}[resume]
+    \item Converta as seguintes medidas para a unidade padrão do SI utilizando Regra de Três:
+        \begin{enumerate}
+            \item \qty{1500}{cm} para metros.
+            \item \qty{2,5}{km} para metros.
+            \item \qty{300}{min} para segundos.
+            \item \qty{0,8}{kg} para gramas (conversão auxiliar).
+            \item \qty{2}{h} para segundos.
+        \end{enumerate}
+    \item Utilize o Método do Fator de Conversão (cancelamento) para converter:
+        \begin{enumerate}
+            \item \qty{108}{km/h} para \unit{m/s}.
+            \item \qty{5}{m/s} para \unit{km/h}.
+            \item \qty{2}{g/cm^3} para \unit{kg/m^3}.
+            \item \qty{1}{dia} para segundos.
+            \item \qty{10}{m^2} para \unit{cm^2}.
+        \end{enumerate}
+\end{enumerate}
+
+\clearpage
+
+\section{Problemas Aplicados}
+
+\begin{enumerate}[resume]
+    \item \textbf{(Dados Reais)} A luz viaja no vácuo a uma velocidade constante de aproximadamente \qty{300000}{km/s}. 
+    \begin{enumerate}
+        \item Converta esta velocidade para metros por segundo (\unit{m/s}) usando notação científica.
+        \item Qual a Ordem de Grandeza desta velocidade no SI?
+    \end{enumerate}
+
+    \item \textbf{(Estimativa)} Um estudante consome, em média, $2$ litros de água por dia. Quantos mililitros (\unit{ml}) ele terá consumido ao final de um ano ($365$ dias)? Expresse em notação científica.
+
+    \item \textbf{(Desafio de Fermi)} Estime quantas vezes o coração de um adolescente bate em um único dia, considerando uma frequência média de \qty{75}{batimentos/min}. Apresente o resultado e sua Ordem de Grandeza.
+
+    \item \textbf{(Dados Reais)} A espessura de uma folha de papel comum é de aproximadamente \qty{0,1}{mm}. 
+    \begin{enumerate}
+        \item Expresse essa espessura em metros (\unit{m}) usando notação científica.
+        \item Se empilharmos $1$ milhão ($10^6$) dessas folhas, qual será a altura da pilha em quilômetros (\unit{km})?
+    \end{enumerate}
+\end{enumerate}
+
+\clearpage

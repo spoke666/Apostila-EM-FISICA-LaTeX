@@ -1,0 +1,89 @@
+% =============================================================================
+% ARQUIVO: main.tex (Refatorado - Formatação de Capítulos)
+% =============================================================================
+\documentclass[12pt, a4paper, brazilian]{report}
+
+% --- Importação de Configurações ---
+\input{config/pacotes}
+\input{config/setup_dados}
+\input{config/estilo_capa}
+\input{config/estilo_folha_rosto}
+
+% --- Configuração de Títulos (Remove "Capítulo") ---
+\usepackage{titlesec}
+% Formato para os Capítulos (Ex: 01 -- Introdução)
+\titleformat{\chapter}[hang]
+  {\sffamily\bfseries\LARGE} 
+  {\thechapter\ --\ } 
+  {0pt}
+  {}
+\titlespacing*{\chapter}{0pt}{-20pt}{20pt}
+
+% --- Ajustes de Hyperref ---
+\hypersetup{
+    hypertexnames=false,
+    pdfdisplaydoctitle=true,
+    colorlinks=true,
+    allcolors=black % Mantém links pretos para impressão, mude se desejar colorido
+}
+
+% --- Configuração da Numeração (fancyhdr) ---
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyhead[R]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+% --- Início do Documento ---
+\begin{document}
+
+% 1. Elementos Pré-Textuais
+\pagenumbering{alph}
+\hypersetup{pageanchor=false}
+
+\imprimircapa         
+\imprimirfolhaderosto
+
+\hypersetup{pageanchor=true}
+\tableofcontents
+\listoffigures
+\lstlistoflistings
+\cleardoublepage
+
+% 2. Elementos Textuais (Aulas)
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Adicione suas aulas aqui:
+\input{aulas/01_introducao}
+\input{aulas/02_cinematica}
+
+% 3. Elementos Pós-Textuais
+\nocite{*}
+\printbibliography[title={REFERÊNCIAS}]
+
+% --- Configuração de Apêndices ---
+\appendix 
+
+% Redefinição específica para Apêndices (Ex: Apêndice A -- Título)
+\titleformat{\chapter}[hang]
+  {\sffamily\bfseries\LARGE} 
+  {Apêndice \thechapter\ --\ } 
+  {0pt}
+  {}
+
+% Ajuste no Sumário para os Apêndices via Babel/TOC
+\addtocontents{toc}{\protect\renewcommand{\protect\chaptername}{Apêndice}}
+
+\include{anexos/a_tabela_SI}
+\include{anexos/b_tabela_prefixos}
+\include{anexos/c_alfabeto_grego}
+\include{anexos/d_tabela_conversao}
+\include{anexos/e_constantes}
+
+\end{document}

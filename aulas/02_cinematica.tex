@@ -1,0 +1,100 @@
+\chapter{Cinemática}
+A Física como ciência é muito vasta e requer subdivisões de estudo, uma das grandes areas que estuda o movimento em condições específicas é a cinemática. 
+
+A cinemática estuda o movimento dos corpos sem se preocupar com as causas que o produzem, ou seja, a cinemática descreve como os corpos se movem, enquanto a dinâmica estuda por que os corpos se movem.
+
+\section{Conceitos Fundamentais}
+
+Antes de estudarmos o movimento, precisamos entender alguns conceitos básicos, como referencial, ponto material, corpo extenso e trajetória.
+
+\subsection{Referencial e Sistemas de Coordenadas}
+
+O \textbf{referencial} é o corpo ou lugar a partir do qual observamos os fenômenos. Para quantificar essa observação, utilizamos um \textbf{sistema de coordenadas}.
+
+\subsubsection{Sistema de Coordenadas e a Origem}
+O sistema de coordenadas \ref{fig:sistemas_coordenadas} permite localizar o móvel no espaço. Todo sistema possui uma \textbf{origem} (Ponto Zero), que é o ponto de referência para a contagem das posições ($s$).
+
+% --- Exemplo de Sistema Unidimensional ---
+\begin{figure}[htbp]
+    \centering
+    % --- Subfigura A: Unidimensional ---
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}[>=stealth, scale=0.8]
+            \draw[->, thick] (-2.5,0) -- (2.5,0) node[right] {$s$};
+            \foreach \x in {-2,-1,0,1,2}
+                \draw (\x, 0.1) -- (\x, -0.1) node[below] {\scriptsize \x};
+            \filldraw[azul] (0,0) circle (2pt) node[above=2pt] {\scriptsize $O$};
+            \filldraw[vermelho] (1.5,0) circle (2pt);
+        \end{tikzpicture}
+        \caption{Sistema Unidimensional (Reta)}
+        \label{fig:coord_unidim}
+    \end{subfigure}
+    \hfill % Espaçamento entre as figuras
+    % --- Subfigura B: Bidimensional ---
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}[>=stealth, scale=0.6]
+            \draw[->, thick] (-1,0) -- (3,0) node[right] {$x$};
+            \draw[->, thick] (0,-1) -- (0,3) node[above] {$y$};
+            \draw[help lines, dashed] (0,0) grid (2,2);
+            \filldraw[azul] (0,0) circle (3pt) node[below left] {\scriptsize $O$};
+            \filldraw[vermelho] (2,2) circle (3pt) node[above right] {\scriptsize $P(2,2)$};
+        \end{tikzpicture}
+        \caption{Sistema Bidimensional (Plano)}
+        \label{fig:coord_bidim}
+    \end{subfigure}
+
+    \vspace{0.3cm}
+    \caption{Representação visual dos sistemas de coordenadas e suas respectivas origens ($O$).}
+    \label{fig:sistemas_coordenadas}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Movimento:} Variação da posição ao longo do tempo em relação ao referencial.
+    \item \textbf{Repouso:} Posição sem alteração ao longo do tempo de acordo com o referencial adotado.
+\end{itemize}
+
+% Exemplo de relatividade do movimento
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figuras/fig-01.png}
+    \caption[Movimento relativo no ônibus]{Ilustração do movimento relativo de uma esfera: Na figura superior, nota-se um passageiro observando o movimento vertical de uma esfera. Na figura inferior, nota-se umm observador externo visualizando uma trajetória parabólica da mesma esfera.}
+    \label{fig:movimento_relativo}
+\end{figure}
+
+Qualquer corpo móvel ou fixo pode ser escolhido como referencial, desde que sua posição seja conhecida. O sistema de coordenadas é definido após estabelecer a métrica que frequentemente assume valores dentro do SI.
+
+\subsubsection{Exemplo Prático}
+Considere uma rodovia: o quilômetro zero é a \textbf{origem}. Se um carro está parado no KM 20, ele está em repouso em relação à rodovia, mas em movimento em relação ao Sol \parencite{halliday2012}.
+
+\subsection{Ponto Material e Corpo Extenso}
+
+A classificação de um móvel depende da escala do fenômeno observado.
+
+\begin{itemize}
+    \item \textbf{Ponto Material:} Suas dimensões são desprezíveis em relação ao fenômeno. Ex: Um planeta orbitando o Sol.
+    \item \textbf{Corpo Extenso:} Suas dimensões são relevantes e influenciam no estudo. Ex: Um planeta sendo estudado quanto à sua rotação e inclinação do eixo.
+\end{itemize}
+
+\subsubsection{Critério de Diferenciação}
+Para diferenciar, comparamos o tamanho do objeto ($L$) com a distância percorrida ($D$):
+\begin{itemize}
+    \item Se $L \ll D$ (muito menor), temos um \textbf{ponto material}.
+    \item Se $L \approx D$ (comparável), temos um \textbf{corpo extenso}.
+\end{itemize}
+
+\subsection{Trajetória}
+É o lugar geométrico das posições sucessivas do móvel. Sua forma depende do referencial.
+
+\section{Tipos de Movimento}
+\begin{itemize}
+    \item \textbf{Progressivo:} $v > 0$ (segue a orientação da via).
+    \item \textbf{Retrógrado:} $v < 0$ (contra a orientação da via).
+\end{itemize}
+
+\section{Velocidade}
+A velocidade escalar média é dada por:
+\begin{equation}
+    v_m = \frac{\Delta s}{\Delta t}
+\end{equation}

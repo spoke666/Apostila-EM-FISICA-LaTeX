@@ -1,0 +1,55 @@
+\chapter{Fatores de Conversão}
+\label{apend:fatores_conversao}
+
+\DeclareSIUnit\angstrom{\text{\AA}}
+
+\begin{table}[H]
+    \centering
+    \sffamily
+    \begin{threeparttable}
+        \caption{Fatores de Conversão para Unidades do SI}
+        \label{tab:conversoes_unidades}
+        \small 
+        \begin{tabular}{l l l}
+            \toprule
+            \textbf{Grandeza}    & \textbf{Unidade (Não-SI)}      & \textbf{Equivalente SI}            \\ 
+            \midrule
+            \textbf{Comprimento} & 1 polegada (in)                & \qty{2,54e-2}{m} (\text{exato})    \\
+                                 & 1 pé (ft)                      & \qty{0,3048}{m} (\text{exato})     \\
+                                 & 1 milha (mi)                   & \qty{1,609}{km}                    \\
+                                 & 1 légua                        & \qty{4,828}{km}                    \\
+                                 & 1 angstrom (\unit{\angstrom})  & \qty{1e-10}{m}                     \\
+            \midrule
+            \textbf{Massa}       & 1 onça (oz)                    & \qty{28,35}{g}                     \\
+                                 & 1 libra (lb)                   & \qty{0,4536}{kg}                   \\
+                                 & 1 tonelada (t)                 & \qty{1e3}{kg}                      \\
+                                 & 1 slug                         & \qty{14,59}{kg}                    \\
+            \midrule
+            \textbf{Volume}      & 1 litro (L)                    & \qty{1e-3}{m^3}                    \\
+                                 & 1 galão (gal)                  & \qty{3,785}{L}                     \\
+                                 & 1 onça líquida (fl oz)         & \qty{29,57}{mL}                    \\
+            \midrule
+            \textbf{Velocidade}  & 1 km/h                         & \qty{0,2778}{m/s} (\text{ou } $\div$ 3,6) \\
+                                 & 1 milha/h (mph)                & \qty{0,4470}{m/s}                  \\
+                                 & 1 nó (knot)                    & \qty{0,5144}{m/s}                  \\
+            \midrule
+            \textbf{Força}       & 1 libra-força (lbf)            & \qty{4,448}{N}                     \\
+                                 & 1 quilograma-força (kgf)       & \qty{9,8066}{N}                    \\
+                                 & 1 dina (dyn)                   & \qty{1e-5}{N}                      \\
+            \midrule
+            \textbf{Pressão}     & 1 atmosfera (atm)              & \qty{1,013e5}{Pa}                  \\
+                                 & 1 bar                          & \qty{1e5}{Pa}                      \\
+                                 & 1 torr (mmHg)                  & \qty{133,3}{Pa}                    \\
+                                 & 1 psi                          & \qty{6,895e3}{Pa}                  \\
+            \midrule
+            \textbf{Energia}     & 1 caloria (cal)                & \qty{4,186}{J}                     \\
+                                 & 1 elétron-volt (eV)            & \qty{1,602e-19}{J}                 \\
+                                 & 1 British Thermal Unit (BTU)   & \qty{1055}{J}                      \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}
+            \small
+            \item \textbf{Nota:} Fatores expressos em notação científica seguem o padrão estabelecido pelo \cite{bipm2019}.
+        \end{tablenotes}
+    \end{threeparttable}
+\end{table}

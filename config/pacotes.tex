@@ -1,0 +1,93 @@
+% =============================================================================
+% ARQUIVO: config/pacotes.tex (Organizado e Refatorado)
+% =============================================================================
+
+% --- 1. CORE (Sistema, Idioma e Codificação) ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{csquotes} 
+
+% --- 2. LAYOUT E ESTILO DE PÁGINA ---
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\setlength{\headheight}{15pt}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\onehalfspacing 
+\usepackage{fancyhdr}
+
+% --- 3. TÍTULOS E ESTRUTURA (Refatoração de Capítulos) ---
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{etoolbox}
+\usepackage{enumitem}
+
+% --- 4. CIÊNCIAS EXATAS (Matemática, Física e Química) ---
+\usepackage{amsmath, amsfonts, amssymb} 
+\usepackage{bm}        % Negrito em símbolos matemáticos (Vetores)
+\usepackage{siunitx}   % ESSENCIAL: Unidades do SI e alinhamento decimal
+\usepackage[version=4]{mhchem} % ESSENCIAL: Fórmulas químicas (ex: \ce{H2O})
+\usepackage{cancel}
+
+% Configuração do SIUNITX para padrão brasileiro (vírgula decimal)
+\sisetup{
+    output-decimal-marker = {,},
+    separate-uncertainty = true,
+    range-phrase = { a },
+    exponent-product = \cdot
+}
+
+% --- 5. TABELAS E ELEMENTOS FLUTUANTES ---
+\usepackage{array}   
+\usepackage{booktabs}  % Linhas padrão Halliday/Livro científico
+\usepackage{float}     
+\usepackage{caption}
+\usepackage{threeparttable}
+
+% --- 6. GRÁFICOS E FIGURAS ---
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.geometric, arrows, positioning}
+\usepackage{subcaption}
+
+% --- 7. CITAÇÕES E BIBLIOGRAFIA ---
+\usepackage[style=abnt, backend=biber]{biblatex}
+\addbibresource{referencias.bib} 
+
+% --- 8. LINKS E CÓDIGOS ---
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, 
+    allcolors=blue,
+    breaklinks=true
+}
+\usepackage{listings}
+
+% --- 9. DEFINIÇÃO DE CORES E LISTINGS (CÓDIGO) ---
+\definecolor{azul}{RGB}{0, 0, 255}
+\definecolor{vermelho}{RGB}{200, 50, 55}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstset{
+    backgroundcolor=\color{backcolour},   
+    basicstyle=\small\ttfamily,
+    keywordstyle=\color{magenta}\bfseries,
+    commentstyle=\color{codegreen},
+    stringstyle=\color{codepurple},
+    numberstyle=\tiny\color{codegray},
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    showstringspaces=false, 
+    inputencoding=utf8,
+    extendedchars=true,
+    literate={á}{{\'a}}1 {à}{{\`a}}1 {À}{{\`A}}1 {ã}{{\~a}}1 {é}{{\'e}}1 {â}{{\^a}}1 {ê}{{\^e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {õ}{{\~o}}1 {ú}{{\'u}}1 {ç}{{\c{c}}}1 {Á}{{\'A}}1 {Ã}{{\~A}}1 {É}{{\'E}}1 {Ê}{{\^E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Õ}{{\~O}}1 {Ú}{{\'U}}1 {Ç}{{\c{C}}}1 {│}{{|}}1 {├}{{+}}1 {─}{{-}}1 {└}{{+}}1
+}

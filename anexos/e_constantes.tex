@@ -1,0 +1,79 @@
+%==============================================================================
+% Constantes Físicas Fundamentais   
+%==============================================================================
+
+\chapter{Constantes Físicas Fundamentais}
+\section{Constantes Universais}
+\label{sec:constantes_universais}
+
+As constantes abaixo são fundamentais para o desenvolvimento das leis da Física moderna e clássica \parencite{bipm2019}.
+
+\begin{table}[H]
+    \centering
+    \sffamily
+    \caption{Constantes de Físicas}
+    \label{tab:constantes}
+    \small
+    \begin{tabular}{l l l l}
+        \toprule
+        \textbf{Constante}             & \textbf{Símbolo} & \textbf{Valor Aproximado}           & \textbf{Unidade (SI)}  \\ 
+        \midrule
+        Raio de Bohr                   & $a_0$            & \qty{5,2917e-11}{}                  & \unit{m}               \\
+        Magneton de Bohr               & $\mu_B$          & \qty{9,2740e-24}{}                  & \unit{J/T}             \\
+        Magneton de Nuclear            & $\mu_N$          & \qty{5,0507e-27}{}                  & \unit{J/T}             \\
+        Constante de Rydberg           & $R_\infty$       & \qty{1,0973e7}{}                    & \unit{m^{-1}}          \\
+        Constante de estrutura fina    & $\alpha$         & \qty{7,2973e-3}{}                   & \text{(adimensional)}  \\
+        Massa do nêutron               & $m_n$            & \qty{1,6749e-27}{}                  & \unit{kg}              \\
+        Massa do múon                  & $m_\mu$          & \qty{1,8835e-28}{}                  & \unit{kg}              \\
+        Comprimento de onda Compton    & $\lambda_C$      & \qty{2,4263e-12}{}                  & \unit{m}               \\
+        Constante de Faraday           & $F$              & \qty{9,6485e4}{}                    & \unit{C/mol}           \\
+        Constante de Wien              & $b$              & \qty{2,8977e-3}{}                   & \unit{m.K}             \\
+        Massa Solar                    & $M_\odot$        & \qty{1,9884e30}{}                   & \unit{kg}              \\
+        Raio Solar                     & $R_\odot$        & \qty{6,957e8}{}                     & \unit{m}               \\
+        Unidade Astronômica            & $au$             & \qty{1,4959e11}{}                   & \unit{m}               \\
+        Parsec                         & $pc$             & \qty{3,0856e16}{}                   & \unit{m}               \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+%==============================================================================    
+% Calores específicos, Latentes e temperaturas de transição de fase
+%==============================================================================
+\section{Propriedades Térmicas da Matéria}
+\label{sec:propriedades_termicas}
+
+A tabela \ref{tab:constantes_termicas} apresenta os valores de calor específico ($c$),  as temperaturas de fusão ($T_{f}$) e ebulição ($T_{v}$), os calores latentes de fusão ($L_f$) e vaporização ($L_v$) e o coeficiente de dilatação linear ($\alpha$) \parencite{halliday2012}.
+
+\begin{table}[H]
+    \centering
+    \sffamily
+    \caption{Propriedades Térmicas}
+    \label{tab:constantes_termicas}
+    \footnotesize
+    \begin{tabular}{l c c c c c c}
+        \toprule
+        \textbf{Substância} & \textbf{$c$}             & \textbf{$T_{f}$}   & \textbf{$L_f$} & \textbf{$T_{v}$}   & \textbf{$L_v$} & \textbf{$\alpha$}      \\
+                            & ($cal/g \cdot ^\circ C$) & ($^\circ C$)       & ($cal/g$)      & ($^\circ C$)       & ($cal/g$)      & ($10^{-6}/^\circ C$)   \\ 
+        \midrule
+        Aço                 & \qty{0,107}{}            & \qty{1535}{}       & \qty{65,0}{}   & \qty{2750}{}       & \qty{1520}{}   & \qty{11,0}{}           \\
+        Água/Gelo           & \qty{1,00}{}             & \qty{0,00}{}       & \qty{80,0}{}   & \qty{100}{}        & \qty{540}{}    & ---                    \\
+        Álcool etílico      & \qty{0,580}{}            & \qty{-114}{}       & \qty{24,9}{}   & \qty{78,0}{}       & \qty{204}{}    & \qty{750}{}            \\
+        Alumínio            & \qty{0,215}{}            & \qty{660}{}        & \qty{94,0}{}   & \qty{2450}{}       & \qty{2720}{}   & \qty{23,0}{}           \\
+        Chumbo              & \qty{0,0305}{}           & \qty{327}{}        & \qty{5,85}{}   & \qty{1750}{}       & \qty{208}{}    & \qty{29,0}{}           \\
+        Cobre               & \qty{0,0920}{}           & \qty{1083}{}       & \qty{49,0}{}   & \qty{2567}{}       & \qty{1130}{}   & \qty{17,0}{}           \\
+        Concreto            & \qty{0,200}{}            & ---                & ---            & ---                & ---            & \qty{12,0}{}           \\
+        Diamante            & \qty{0,124}{}            & \qty{3550}{}       & \qty{400}{}    & \qty{4827}{}       & \qty{2200}{}   & \qty{1,00}{}           \\
+        Estanho             & \qty{0,0540}{}           & \qty{232}{}        & \qty{14,1}{}   & \qty{2270}{}       & \qty{596}{}    & \qty{20,0}{}           \\
+        Ferro               & \qty{0,107}{}            & \qty{1535}{}       & \qty{65,0}{}   & \qty{2750}{}       & \qty{1520}{}   & \qty{12,0}{}           \\
+        Glicerina           & \qty{0,580}{}            & \qty{18,0}{}       & \qty{47,7}{}   & \qty{290}{}        & \qty{198}{}    & \qty{500}{}            \\
+        Latão               & \qty{0,0920}{}           & \qty{900}{}        & \qty{40,0}{}   & \qty{1050}{}       & \qty{380}{}    & \qty{19,0}{}           \\
+        Mercúrio            & \qty{0,0330}{}           & \qty{-38,9}{}      & \qty{2,80}{}   & \qty{357}{}        & \qty{65,0}{}   & \qty{180}{}            \\
+        Ouro                & \qty{0,0308}{}           & \qty{1063}{}       & \qty{15,4}{}   & \qty{2660}{}       & \qty{377}{}    & \qty{14,0}{}           \\
+        Platina             & \qty{0,0320}{}           & \qty{1772}{}       & \qty{27,0}{}   & \qty{3827}{}       & \qty{600}{}    & \qty{9,00}{}           \\
+        Prata               & \qty{0,0560}{}           & \qty{961}{}        & \qty{21,1}{}   & \qty{2193}{}       & \qty{558}{}    & \qty{19,0}{}           \\
+        Tungstênio          & \qty{0,0320}{}           & \qty{3410}{}       & \qty{44,0}{}   & \qty{5555}{}       & \qty{1150}{}   & \qty{4,50}{}           \\
+        Vidro (comum)       & \qty{0,200}{}            & \qty{1100}{}       & ---            & ---                & ---            & \qty{9,00}{}           \\
+        Vidro (Pyrex)       & \qty{0,200}{}            & \qty{1260}{}       & ---            & ---                & ---            & \qty{3,20}{}           \\
+        Zinco               & \qty{0,0930}{}           & \qty{420}{}        & \qty{24,0}{}   & \qty{907}{}        & \qty{422}{}    & \qty{30,0}{}           \\ \bottomrule
+    \end{tabular}
+\end{table}

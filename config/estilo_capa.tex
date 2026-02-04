@@ -1,0 +1,48 @@
+% config/estilo_capa.tex
+
+\newcommand{\imprimircapa}{
+  \begin{titlepage}
+    \centering
+    
+    % Cabeçalho
+    {\sffamily\bfseries\Large\minhainstituicao \par}
+    \vspace{1.5cm}
+    {\sffamily\bfseries\large\meuautor \par}
+    
+    \vfill
+    
+    % --- Elemento Gráfico Superior ---
+    \noindent
+    \begin{minipage}{\textwidth}
+        \centering
+        \color{red}\rule{\textwidth}{1pt} \\ [-\baselineskip]
+        \vspace{-2mm}
+        \color{vermelho}\rule{0.95\textwidth}{1pt}
+    \end{minipage}
+
+    \vspace{0.8cm}
+    
+    % Título
+    {\sffamily\bfseries\LARGE\meutitulo \par}
+    
+    \vspace{0.8cm}
+    
+    % --- Elemento Gráfico Inferior ---
+    \noindent
+    \begin{minipage}{\textwidth}
+        \centering
+        \color{red}\rule{\textwidth}{1pt} \\ [-\baselineskip]
+        \vspace{2mm}
+        \color{vermelho}\rule{0.95\textwidth}{1pt}
+    \end{minipage}
+    
+    \vfill
+    
+    % Rodapé
+    \color{black}
+    {\large\meulocal \par}
+    {\large\meudata \par}
+    
+    \vspace*{1cm}
+  \end{titlepage}
+}
