@@ -80,10 +80,10 @@ Este método reduz drasticamente a chance de erro ao lidar com unidades de área
     1 \text{ m}^2 = \left( \frac{100 \text{ cm}}{1 \text{ m}} \right)^2 = \frac{100^2 \text{ cm}^2}{1^2 \text{ m}^2} = 10.000 \text{ cm}^2  
 \end{equation*}
 
-\section{Notação Científica e Ordem de Grandeza}
-Na física, lidamos com dimensões que variam do átomo às galáxias. Utilizamos a notação científica:
+\section{Notação Científica}
+Na física, lidamos com dimensões que variam do átomo às galáxias. Utilizamos a notação científica na forma geral \ref{eq:notacao_cientifica} para expressar esses valores de maneira compacta e clara.
 \begin{equation}
-    N \times 10^{n}, \quad \text{sendo } 1 \leq N < 10
+    N \times 10^{n}, \quad \text{sendo } 1 \leq N < 10 \label{eq:notacao_cientifica}
 \end{equation}
 
 \textbf{Aplicações:} Expressar a velocidade da luz ($3 \times 10^8$ m/s) ou a massa de um elétron de forma simplificada.
@@ -109,8 +109,14 @@ Na prática, o objetivo é reduzir o número de zeros, facilitando cálculos e c
 \section{Ordem de Grandeza}
 A ordem de grandeza é uma forma de classificar a magnitude de um número, expressando-a  numa potência de 10. Ela é útil para comparar quantidades e entender a escala dos fenômenos físicos. A ordem de grandeza é determinada pelo expoente na notação científica mais o fator de proximidade logarítmico.
 \begin{itemize}
-    \item Se o número $N$ na notação científica $N \times 10^{n}$ for menor que $\sqrt{10}$, a ordem de grandeza é o expoente $n$.
-    
+    \item Se o número $N$ na notação científica $N \times 10^{n}$ for menor que $\sqrt{10}$, a ordem de grandeza é o expoente $n$ como podemos ver em \ref{eq:og_pequeno}.
+       
+        \begin{equation}
+            N < \sqrt{10} \implies \text{[OG]} = n \label{eq:og_pequeno}
+        \end{equation}
+
+        Lembrando que n é o expoente da base 10.
+
         \textbf{Exemplo 1:} $3,2 \times 10^{4}$, como $3,1 < \sqrt{10}$ (3,1 menor que ..), a ordem de grandeza é 4.
 
         Resposta: [OG]=4. (OG = Ordem de Grandeza)
@@ -119,8 +125,12 @@ A ordem de grandeza é uma forma de classificar a magnitude de um número, expre
     
         Resposta: [OG]=-3.
 
-    \item Se o número $N$ for maior ou igual a $\sqrt{10}$, a ordem de grandeza é o expoente $n + 1$.
-    
+    \item Se o número $N$ for maior ou igual a $\sqrt{10}$, a ordem de grandeza é o expoente $n + 1$ como podemos ver \ref{eq:og_grande}.
+        
+        \begin{equation}
+            N > \sqrt{10} \implies \text{[OG]} = n + 1 \label{eq:og_grande}
+        \end{equation}
+        
         \textbf{Exemplo 1:} $6,5 \times 10^{8}$, como $6,5 \geq \sqrt{10}$ (6,5 maior que ..), a ordem de grandeza é $8 + 1 = 9$.
 
         Resposta: [OG]=9.

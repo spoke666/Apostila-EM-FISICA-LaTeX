@@ -77,6 +77,14 @@ A classificação de um móvel depende da escala do fenômeno observado.
     \item \textbf{Corpo Extenso:} Suas dimensões são relevantes e influenciam no estudo. Ex: Um planeta sendo estudado quanto à sua rotação e inclinação do eixo.
 \end{itemize}
 
+% Exemplo de ponto material vs corpo extenso
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figuras/fig-02.png}
+    \caption[Movimento relativo no ônibus]{A figura demonstra a diferença entre um ponto material e um corpo extenso. À esquerda, uma pessoa sob uma superfície muito extensa. A direita, uma pessoa em uma superfície pequena, onde suas dimensões são relevantes.}
+    \label{fig:corpo_ponto}
+\end{figure}
+
 \subsubsection{Critério de Diferenciação}
 Para diferenciar, comparamos o tamanho do objeto ($L$) com a distância percorrida ($D$):
 \begin{itemize}
@@ -93,8 +101,74 @@ Para diferenciar, comparamos o tamanho do objeto ($L$) com a distância percorri
     \item \textbf{Retrógrado:} $v < 0$ (contra a orientação da via).
 \end{itemize}
 
+\begin{figure}[htbp]
+    \centering
+    % --- CASO 1: MOVIMENTO PROGRESSIVO ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \begin{tikzpicture}[>=stealth]
+            % Eixo da trajetória
+            \draw[->, thick, gray] (-2.5,0) -- (2.5,0) node[right, black] {$s$};
+            \fill (0,0) circle (1.5pt) node[below] {$O$};
+            
+            % Sentido Positivo da Via
+            \draw[->, blue, thick] (-1, 1.2) -- (1, 1.2) node[midway, above, black] {\tiny Sentido da Via};
+            
+            % O Móvel (Progressivo)
+            \draw[fill=red!20, draw=red, thick] (-1.5, 0.1) rectangle (-0.5, 0.5);
+            \draw[->, red, ultra thick] (-1, 0.3) -- (0.5, 0.3) node[right] {$\vec{v}$};
+            
+            \node[red, font=\bfseries] at (0, 1.8) {Progressivo ($v > 0$)};
+        \end{tikzpicture}
+        \caption{Mesmo sentido da trajetória.}
+    \end{subfigure}
+    \hfill % Este comando joga o próximo desenho para a outra ponta
+    % --- CASO 2: MOVIMENTO RETRÓGRADO ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \begin{tikzpicture}[>=stealth]
+            % Eixo da trajetória
+            \draw[->, thick, gray] (-2.5,0) -- (2.5,0) node[right, black] {$s$};
+            \fill (0,0) circle (1.5pt) node[below] {$O$};
+            
+            % Sentido Positivo da Via
+            \draw[->, blue, thick] (-1, 1.2) -- (1, 1.2) node[midway, above, black] {\tiny Sentido da Via};
+            
+            % O Móvel (Retrógrado)
+            \draw[fill=blue!20, draw=blue, thick] (0.5, 0.1) rectangle (1.5, 0.5);
+            \draw[<-, blue, ultra thick] (-0.5, 0.3) -- (1, 0.3) node[right, xshift=0.5cm] {$\vec{v}$};
+            
+            \node[blue, font=\bfseries] at (0, 1.8) {Retrógrado ($v < 0$)};
+        \end{tikzpicture}
+        \caption{Sentido oposto à trajetória.}
+    \end{subfigure}
+
+    \vspace{0.5cm}
+    \caption{Classificação do sentido do movimento em relação à orientação da trajetória.}
+    \label{fig:progressivo_retrogrado}
+\end{figure}
+
 \section{Velocidade}
-A velocidade escalar média é dada por:
+Mensura a taxa de variação da posição em relação ao tempo. Pode ser classificada em:
+\begin{itemize}
+    \item \textbf{Velocidade Escalar Média:} Grandeza escalar que indica a rapidez média de um móvel.
+    \item \textbf{Velocidade Instantânea:} Grandeza vetorial que indica a velocidade em um instante específico.
+\end{itemize}
+
+\subsection{Velocidade Instantânea}
+A velocidade instantânea é a taxa de variação da posição num intervalo de tempo próximo a zero. É mensurado com o velocímetro do veículo. Podemos entender como um limite da velocidade média quando o intervalo de tempo tende a zero. 
+
+\subsection{Velocidade Escalar Média}
+A velocidade escalar média descreve a velocidade em que se deve ter, de maneira fixa, para percorrer uma dada distância naquele tempo. Diferente da velocidade instantânea, essa velocidade descreve todo um trajeto. 
+A velocidade média pode ser determinada pela razão entre a distância percorrida ($\Delta s$) com o intervalo de tempo gasto ($\Delta t$), como podemos ver na equação \ref{eq:velocidade_media}.
 \begin{equation}
-    v_m = \frac{\Delta s}{\Delta t}
+    v_m = \frac{\Delta s}{\Delta t} \label{eq:velocidade_media}
 \end{equation}
+Com:
+\begin{equation*}
+    \begin{aligned}
+        \Delta s = s_f - s_i & \xmapsto{\hspace{1.5cm}} \text{Variação da posição (Deslocamento)} \\
+        \Delta t = t_f - t_i & \xmapsto{\hspace{1.5cm}} \text{Variação do tempo (Intervalo)} \\
+        v_m & \xmapsto{\hspace{1.5cm}} \text{Velocidade Escalar Média}
+    \end{aligned}
+\end{equation*}
