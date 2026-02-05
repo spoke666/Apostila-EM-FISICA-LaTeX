@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[149] biber-MSWIN64:342> INFO - === 
-[207] Biber.pm:421> INFO - Reading 'main.bcf'
-[375] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[393] Biber.pm:4487> INFO - Processing section 0
-[409] Biber.pm:4678> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[505] bibtex.pm:1713> INFO - LaTeX decoding ...
-[521] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[620] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[620] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[620] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[620] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
-[636] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[642] bbl.pm:779> INFO - Output to main.bbl
+[207] biber-MSWIN64:342> INFO - === 
+[290] Biber.pm:421> INFO - Reading 'main.bcf'
+[472] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[494] Biber.pm:4487> INFO - Processing section 0
+[510] Biber.pm:4678> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[619] bibtex.pm:1713> INFO - LaTeX decoding ...
+[643] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[794] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[794] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[794] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'pt-BR'
+[794] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[812] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[819] bbl.pm:779> INFO - Output to main.bbl

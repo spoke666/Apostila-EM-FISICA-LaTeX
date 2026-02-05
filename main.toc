@@ -19,20 +19,23 @@
 \contentsline {subsection}{\numberline {2.1.3}Trajetória}{8}{subsection.66}%
 \contentsline {section}{\numberline {2.2}Tipos de Movimento}{9}{section.67}%
 \contentsline {section}{\numberline {2.3}Velocidade}{9}{section.69}%
-\contentsline {subsection}{\numberline {2.3.1}Velocidade Instantânea}{9}{subsection.70}%
-\contentsline {subsection}{\numberline {2.3.2}Velocidade Escalar Média}{10}{subsection.71}%
-\babel@toc {brazilian}{}\relax 
-\babel@toc {brazilian}{}\relax 
-\babel@toc {brazilian}{}\relax 
-\babel@toc {brazilian}{}\relax 
-\babel@toc {brazilian}{}\relax 
-\babel@toc {brazilian}{}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Velocidade Instantânea}{10}{subsection.70}%
+\contentsline {section}{\numberline {2.4}Velocidade Relativa}{10}{section.72}%
+\contentsline {subsection}{\numberline {2.4.1}Movimento na mesma direção e sentido}{10}{subsection.73}%
+\contentsline {subsection}{\numberline {2.4.2}Movimento na mesma direção e sentidos opostos}{10}{subsection.75}%
+\contentsline {subsection}{\numberline {2.4.3}Tempo de Encontro e Ultrapassagem}{11}{subsection.77}%
+\contentsline {subsubsection}{Exemplo de Fixação: Ultrapassagem}{11}{subsubsection*.79}%
+\contentsline {subsection}{\numberline {2.4.4}Velocidade Escalar Média}{11}{subsection.80}%
+\contentsline {section}{\numberline {2.5}Exemplos de Fixação}{12}{section.84}%
+\contentsline {section}{\numberline {2.6}Questões:}{13}{section.96}%
+\contentsline {section}{\numberline {2.7}Exercícios}{14}{section.109}%
+\contentsline {section}{\numberline {2.8}Problemas}{16}{section.132}%
 \renewcommand {\chaptername }{Apêndice}
-\contentsline {chapter}{\numberline {A}Sistema Internacional de Unidades}{12}{appendix.74}%
-\contentsline {chapter}{\numberline {B}Prefixos}{13}{appendix.77}%
-\contentsline {chapter}{\numberline {C}Alfabeto Grego}{14}{appendix.79}%
-\contentsline {chapter}{\numberline {D}Fatores de Conversão}{15}{appendix.81}%
-\contentsline {chapter}{\numberline {E}Constantes Físicas Fundamentais}{16}{appendix.84}%
-\contentsline {section}{\numberline {E.1}Constantes Universais}{16}{section.85}%
-\contentsline {section}{\numberline {E.2}Propriedades Térmicas da Matéria}{16}{section.87}%
+\contentsline {chapter}{\numberline {A}Sistema Internacional de Unidades}{18}{appendix.145}%
+\contentsline {chapter}{\numberline {B}Prefixos}{19}{appendix.148}%
+\contentsline {chapter}{\numberline {C}Alfabeto Grego}{20}{appendix.150}%
+\contentsline {chapter}{\numberline {D}Fatores de Conversão}{21}{appendix.152}%
+\contentsline {chapter}{\numberline {E}Constantes Físicas Fundamentais}{22}{appendix.155}%
+\contentsline {section}{\numberline {E.1}Constantes Universais}{22}{section.156}%
+\contentsline {section}{\numberline {E.2}Propriedades Térmicas da Matéria}{22}{section.158}%
 \contentsfinish 

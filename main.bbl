@@ -18,7 +18,272 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{nussenzveig2002}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=dd20dc975db7ad79251d550021701c03}{%
+           family={Nussenzveig},
+           familyi={N\bibinitperiod},
+           given={H.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Edgard Blücher}%
+      }
+      \strng{namehash}{dd20dc975db7ad79251d550021701c03}
+      \strng{fullhash}{dd20dc975db7ad79251d550021701c03}
+      \strng{fullhashraw}{dd20dc975db7ad79251d550021701c03}
+      \strng{bibnamehash}{dd20dc975db7ad79251d550021701c03}
+      \strng{authorbibnamehash}{dd20dc975db7ad79251d550021701c03}
+      \strng{authornamehash}{dd20dc975db7ad79251d550021701c03}
+      \strng{authorfullhash}{dd20dc975db7ad79251d550021701c03}
+      \strng{authorfullhashraw}{dd20dc975db7ad79251d550021701c03}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Curso de Física Básica: volumes 1 e 2}
+      \field{year}{2002}
+    \endentry
+    \entry{halliday2012}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=4b8c39f85b79739a6d86db3fc5ef7276}{%
+           family={Halliday},
+           familyi={H\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0af34f64451b9e5329db72d726604642}{%
+           family={Resnick},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c452daf9e08a2b1aace408d33996eb14}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {LTC}%
+      }
+      \strng{namehash}{a92ddd665c90bf44bf165618dc235578}
+      \strng{fullhash}{a92ddd665c90bf44bf165618dc235578}
+      \strng{fullhashraw}{a92ddd665c90bf44bf165618dc235578}
+      \strng{bibnamehash}{a92ddd665c90bf44bf165618dc235578}
+      \strng{authorbibnamehash}{a92ddd665c90bf44bf165618dc235578}
+      \strng{authornamehash}{a92ddd665c90bf44bf165618dc235578}
+      \strng{authorfullhash}{a92ddd665c90bf44bf165618dc235578}
+      \strng{authorfullhashraw}{a92ddd665c90bf44bf165618dc235578}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{title}{Fundamentos de Física: volumes 1, 2, 3 e 4}
+      \field{year}{2012}
+    \endentry
+    \entry{serway2014}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=9142d7571fe4a7a87301eeced5dee93b}{%
+           family={Serway},
+           familyi={S\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9ae1a0dbf6fb8359590e8687bddfc7d6}{%
+           family={Jewett},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{bibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorbibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authornamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{isbn}{978-8522116362}
+      \field{subtitle}{Mecânica Clássica}
+      \field{title}{Princípios de Física}
+      \field{volume}{1}
+      \field{year}{2014}
+    \endentry
+    \entry{bncc2018}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0216cb0d20fc838196b8d633f7813d3b}{%
+           family={BRASIL},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{0216cb0d20fc838196b8d633f7813d3b}
+      \strng{fullhash}{0216cb0d20fc838196b8d633f7813d3b}
+      \strng{fullhashraw}{0216cb0d20fc838196b8d633f7813d3b}
+      \strng{bibnamehash}{0216cb0d20fc838196b8d633f7813d3b}
+      \strng{authorbibnamehash}{0216cb0d20fc838196b8d633f7813d3b}
+      \strng{authornamehash}{0216cb0d20fc838196b8d633f7813d3b}
+      \strng{authorfullhash}{0216cb0d20fc838196b8d633f7813d3b}
+      \strng{authorfullhashraw}{0216cb0d20fc838196b8d633f7813d3b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 03 fev. 2026}
+      \field{title}{Base Nacional Comum Curricular (BNCC): Ciências da Natureza e suas Tecnologias}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://download.basenacionalcomum.mec.gov.br
+      \endverb
+      \verb{url}
+      \verb http://download.basenacionalcomum.mec.gov.br
+      \endverb
+    \endentry
+    \entry{bonjorno2001}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=d797d4a35e4859eceba05f92183128ed}{%
+           family={Bonjorno},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {FTD}%
+      }
+      \strng{namehash}{d797d4a35e4859eceba05f92183128ed}
+      \strng{fullhash}{d797d4a35e4859eceba05f92183128ed}
+      \strng{fullhashraw}{d797d4a35e4859eceba05f92183128ed}
+      \strng{bibnamehash}{d797d4a35e4859eceba05f92183128ed}
+      \strng{authorbibnamehash}{d797d4a35e4859eceba05f92183128ed}
+      \strng{authornamehash}{d797d4a35e4859eceba05f92183128ed}
+      \strng{authorfullhash}{d797d4a35e4859eceba05f92183128ed}
+      \strng{authorfullhashraw}{d797d4a35e4859eceba05f92183128ed}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Física Completa: volume único}
+      \field{year}{2001}
+      \true{nocite}
+    \endentry
+    \entry{luz2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=69a599c1234701becc4ef32f5c4ee8d9}{%
+           family={Luz},
+           familyi={L\bibinitperiod},
+           given={A.\bibnamedelimi M.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Scipione}%
+      }
+      \strng{namehash}{69a599c1234701becc4ef32f5c4ee8d9}
+      \strng{fullhash}{69a599c1234701becc4ef32f5c4ee8d9}
+      \strng{fullhashraw}{69a599c1234701becc4ef32f5c4ee8d9}
+      \strng{bibnamehash}{69a599c1234701becc4ef32f5c4ee8d9}
+      \strng{authorbibnamehash}{69a599c1234701becc4ef32f5c4ee8d9}
+      \strng{authornamehash}{69a599c1234701becc4ef32f5c4ee8d9}
+      \strng{authorfullhash}{69a599c1234701becc4ef32f5c4ee8d9}
+      \strng{authorfullhashraw}{69a599c1234701becc4ef32f5c4ee8d9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Física: Volume único (Coleção de olho no mundo do trabalho)}
+      \field{year}{2003}
+      \true{nocite}
+    \endentry
+    \entry{goncalves2008}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=1506ac59874b86a03e58f521425478bb}{%
+           family={{Gonçalves Filho}},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f494c067d834fe07d0faeab2d153f8cf}{%
+           family={Toscano},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Scipione}%
+      }
+      \strng{namehash}{d66c650c626a4f251a04a44b9c3c5658}
+      \strng{fullhash}{d66c650c626a4f251a04a44b9c3c5658}
+      \strng{fullhashraw}{d66c650c626a4f251a04a44b9c3c5658}
+      \strng{bibnamehash}{d66c650c626a4f251a04a44b9c3c5658}
+      \strng{authorbibnamehash}{d66c650c626a4f251a04a44b9c3c5658}
+      \strng{authornamehash}{d66c650c626a4f251a04a44b9c3c5658}
+      \strng{authorfullhash}{d66c650c626a4f251a04a44b9c3c5658}
+      \strng{authorfullhashraw}{d66c650c626a4f251a04a44b9c3c5658}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Física: Volume único}
+      \field{year}{2008}
+      \true{nocite}
+    \endentry
+    \entry{sampaio2003}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=5904f45971776ac9096958269ba960e6}{%
+           family={Sampaio},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Atual}%
+      }
+      \strng{namehash}{5904f45971776ac9096958269ba960e6}
+      \strng{fullhash}{5904f45971776ac9096958269ba960e6}
+      \strng{fullhashraw}{5904f45971776ac9096958269ba960e6}
+      \strng{bibnamehash}{5904f45971776ac9096958269ba960e6}
+      \strng{authorbibnamehash}{5904f45971776ac9096958269ba960e6}
+      \strng{authornamehash}{5904f45971776ac9096958269ba960e6}
+      \strng{authorfullhash}{5904f45971776ac9096958269ba960e6}
+      \strng{authorfullhashraw}{5904f45971776ac9096958269ba960e6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Física: Ensino Médio Atual. Volume único}
+      \field{year}{2003}
+      \true{nocite}
+    \endentry
     \entry{bipm2019}{manual}{}{}
       \name{author}{1}{}{%
         {{hash=8273d570dfbe37dc3f8fb6a4b4ee718e}{%
@@ -26,7 +291,7 @@
            familyi={B\bibinitperiod}}}%
       }
       \name{shortauthor}{1}{}{%
-        {{un=0,uniquepart=base,hash=8273d570dfbe37dc3f8fb6a4b4ee718e}{%
+        {{hash=8273d570dfbe37dc3f8fb6a4b4ee718e}{%
            family={BIPM},
            familyi={B\bibinitperiod}}}%
       }
@@ -48,10 +313,8 @@
       \strng{shortauthornamehash}{8273d570dfbe37dc3f8fb6a4b4ee718e}
       \strng{shortauthorfullhash}{8273d570dfbe37dc3f8fb6a4b4ee718e}
       \strng{shortauthorfullhashraw}{8273d570dfbe37dc3f8fb6a4b4ee718e}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{edition}{9}
@@ -67,257 +330,6 @@
       \verb{url}
       \verb https://www.bipm.org
       \endverb
-    \endentry
-    \entry{bonjorno2001}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d797d4a35e4859eceba05f92183128ed}{%
-           family={Bonjorno},
-           familyi={B\bibinitperiod},
-           given={R.\bibnamedelimi A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {São Paulo}%
-      }
-      \list{publisher}{1}{%
-        {FTD}%
-      }
-      \strng{namehash}{d797d4a35e4859eceba05f92183128ed}
-      \strng{fullhash}{d797d4a35e4859eceba05f92183128ed}
-      \strng{fullhashraw}{d797d4a35e4859eceba05f92183128ed}
-      \strng{bibnamehash}{d797d4a35e4859eceba05f92183128ed}
-      \strng{authorbibnamehash}{d797d4a35e4859eceba05f92183128ed}
-      \strng{authornamehash}{d797d4a35e4859eceba05f92183128ed}
-      \strng{authorfullhash}{d797d4a35e4859eceba05f92183128ed}
-      \strng{authorfullhashraw}{d797d4a35e4859eceba05f92183128ed}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Física Completa: volume único}
-      \field{year}{2001}
-      \true{nocite}
-    \endentry
-    \entry{bncc2018}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=0216cb0d20fc838196b8d633f7813d3b}{%
-           family={BRASIL},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{0216cb0d20fc838196b8d633f7813d3b}
-      \strng{fullhash}{0216cb0d20fc838196b8d633f7813d3b}
-      \strng{fullhashraw}{0216cb0d20fc838196b8d633f7813d3b}
-      \strng{bibnamehash}{0216cb0d20fc838196b8d633f7813d3b}
-      \strng{authorbibnamehash}{0216cb0d20fc838196b8d633f7813d3b}
-      \strng{authornamehash}{0216cb0d20fc838196b8d633f7813d3b}
-      \strng{authorfullhash}{0216cb0d20fc838196b8d633f7813d3b}
-      \strng{authorfullhashraw}{0216cb0d20fc838196b8d633f7813d3b}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Acesso em: 03 fev. 2026}
-      \field{title}{Base Nacional Comum Curricular (BNCC): Ciências da Natureza e suas Tecnologias}
-      \field{year}{2018}
-      \true{nocite}
-      \verb{urlraw}
-      \verb http://download.basenacionalcomum.mec.gov.br
-      \endverb
-      \verb{url}
-      \verb http://download.basenacionalcomum.mec.gov.br
-      \endverb
-    \endentry
-    \entry{goncalves2008}{book}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=1506ac59874b86a03e58f521425478bb}{%
-           family={{Gonçalves Filho}},
-           familyi={G\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f494c067d834fe07d0faeab2d153f8cf}{%
-           family={Toscano},
-           familyi={T\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {São Paulo}%
-      }
-      \list{publisher}{1}{%
-        {Scipione}%
-      }
-      \strng{namehash}{d66c650c626a4f251a04a44b9c3c5658}
-      \strng{fullhash}{d66c650c626a4f251a04a44b9c3c5658}
-      \strng{fullhashraw}{d66c650c626a4f251a04a44b9c3c5658}
-      \strng{bibnamehash}{d66c650c626a4f251a04a44b9c3c5658}
-      \strng{authorbibnamehash}{d66c650c626a4f251a04a44b9c3c5658}
-      \strng{authornamehash}{d66c650c626a4f251a04a44b9c3c5658}
-      \strng{authorfullhash}{d66c650c626a4f251a04a44b9c3c5658}
-      \strng{authorfullhashraw}{d66c650c626a4f251a04a44b9c3c5658}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{1}
-      \field{title}{Física: Volume único}
-      \field{year}{2008}
-      \true{nocite}
-    \endentry
-    \entry{halliday2012}{book}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=4b8c39f85b79739a6d86db3fc5ef7276}{%
-           family={Halliday},
-           familyi={H\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0af34f64451b9e5329db72d726604642}{%
-           family={Resnick},
-           familyi={R\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c452daf9e08a2b1aace408d33996eb14}{%
-           family={Walker},
-           familyi={W\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Rio de Janeiro}%
-      }
-      \list{publisher}{1}{%
-        {LTC}%
-      }
-      \strng{namehash}{a92ddd665c90bf44bf165618dc235578}
-      \strng{fullhash}{a92ddd665c90bf44bf165618dc235578}
-      \strng{fullhashraw}{a92ddd665c90bf44bf165618dc235578}
-      \strng{bibnamehash}{a92ddd665c90bf44bf165618dc235578}
-      \strng{authorbibnamehash}{a92ddd665c90bf44bf165618dc235578}
-      \strng{authornamehash}{a92ddd665c90bf44bf165618dc235578}
-      \strng{authorfullhash}{a92ddd665c90bf44bf165618dc235578}
-      \strng{authorfullhashraw}{a92ddd665c90bf44bf165618dc235578}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{9}
-      \field{title}{Fundamentos de Física: volumes 1, 2, 3 e 4}
-      \field{year}{2012}
-    \endentry
-    \entry{luz2003}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=69a599c1234701becc4ef32f5c4ee8d9}{%
-           family={Luz},
-           familyi={L\bibinitperiod},
-           given={A.\bibnamedelimi M.\bibnamedelimi R.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod},
-           prefixun=0}}%
-      }
-      \list{location}{1}{%
-        {São Paulo}%
-      }
-      \list{publisher}{1}{%
-        {Scipione}%
-      }
-      \strng{namehash}{69a599c1234701becc4ef32f5c4ee8d9}
-      \strng{fullhash}{69a599c1234701becc4ef32f5c4ee8d9}
-      \strng{fullhashraw}{69a599c1234701becc4ef32f5c4ee8d9}
-      \strng{bibnamehash}{69a599c1234701becc4ef32f5c4ee8d9}
-      \strng{authorbibnamehash}{69a599c1234701becc4ef32f5c4ee8d9}
-      \strng{authornamehash}{69a599c1234701becc4ef32f5c4ee8d9}
-      \strng{authorfullhash}{69a599c1234701becc4ef32f5c4ee8d9}
-      \strng{authorfullhashraw}{69a599c1234701becc4ef32f5c4ee8d9}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Física: Volume único (Coleção de olho no mundo do trabalho)}
-      \field{year}{2003}
-      \true{nocite}
-    \endentry
-    \entry{nussenzveig2002}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dd20dc975db7ad79251d550021701c03}{%
-           family={Nussenzveig},
-           familyi={N\bibinitperiod},
-           given={H.\bibnamedelimi M.},
-           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {São Paulo}%
-      }
-      \list{publisher}{1}{%
-        {Edgard Blücher}%
-      }
-      \strng{namehash}{dd20dc975db7ad79251d550021701c03}
-      \strng{fullhash}{dd20dc975db7ad79251d550021701c03}
-      \strng{fullhashraw}{dd20dc975db7ad79251d550021701c03}
-      \strng{bibnamehash}{dd20dc975db7ad79251d550021701c03}
-      \strng{authorbibnamehash}{dd20dc975db7ad79251d550021701c03}
-      \strng{authornamehash}{dd20dc975db7ad79251d550021701c03}
-      \strng{authorfullhash}{dd20dc975db7ad79251d550021701c03}
-      \strng{authorfullhashraw}{dd20dc975db7ad79251d550021701c03}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{4}
-      \field{title}{Curso de Física Básica: volumes 1 e 2}
-      \field{year}{2002}
-    \endentry
-    \entry{sampaio2003}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5904f45971776ac9096958269ba960e6}{%
-           family={Sampaio},
-           familyi={S\bibinitperiod},
-           given={J.\bibnamedelimi L.},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {São Paulo}%
-      }
-      \list{publisher}{1}{%
-        {Atual}%
-      }
-      \strng{namehash}{5904f45971776ac9096958269ba960e6}
-      \strng{fullhash}{5904f45971776ac9096958269ba960e6}
-      \strng{fullhashraw}{5904f45971776ac9096958269ba960e6}
-      \strng{bibnamehash}{5904f45971776ac9096958269ba960e6}
-      \strng{authorbibnamehash}{5904f45971776ac9096958269ba960e6}
-      \strng{authornamehash}{5904f45971776ac9096958269ba960e6}
-      \strng{authorfullhash}{5904f45971776ac9096958269ba960e6}
-      \strng{authorfullhashraw}{5904f45971776ac9096958269ba960e6}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Física: Ensino Médio Atual. Volume único}
-      \field{year}{2003}
-      \true{nocite}
     \endentry
   \enddatalist
 \endrefsection
