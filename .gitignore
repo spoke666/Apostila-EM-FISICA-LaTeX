@@ -1,0 +1,14 @@
+# Auxiliares do LaTeX
+*.aux
+*.log
+*.toc
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+*.pdf
+
+# Cache do Sistema
+.cache/
