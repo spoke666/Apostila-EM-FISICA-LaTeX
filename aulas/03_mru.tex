@@ -1,0 +1,47 @@
+\chapter{Movimento Retilíneo Uniforme (MRU)}
+\label{cap:mru}
+
+O Movimento Retilíneo Uniforme (MRU) é o caso mais simples de movimento, servindo como base para a compreensão de dinâmicas mais complexas. Sua principal característica é a manutenção de uma velocidade constante ao longo de uma trajetória reta.
+
+\section{Definição e Características}
+
+No MRU, o móvel percorre distâncias iguais em intervalos de tempo iguais. Isso implica que:
+\begin{itemize}
+    \item A trajetória é uma linha reta.
+    \item A velocidade escalar instantânea é constante e igual à velocidade escalar média ($v = v_m$).
+    \item A aceleração é nula ($a = 0$), pois não há variação no módulo da velocidade.
+\end{itemize}
+
+\section{Função Horária da Posição}
+
+A função horária permite determinar a posição ($s$) de um móvel em qualquer instante ($t$), desde que conheçamos sua posição inicial ($s_0$) e sua velocidade ($v$). Partindo da definição de velocidade média:
+
+\begin{equation}
+    v = \frac{\Delta s}{\Delta t} \implies v = \frac{s - s_0}{t - t_0}
+\end{equation}
+
+Considerando o instante inicial como $t_0 = 0$, temos:
+\begin{equation}
+    v = \frac{s - s_0}{t} \implies v \cdot t = s - s_0
+\end{equation}
+
+Isolando a posição final ($s$), obtemos a \textbf{Função Horária do MRU}\parencite{halliday2012}:
+
+\begin{equation}
+    s = s_0 + v \cdot t \label{eq:sorvete}
+\end{equation}
+
+\noindent Onde:
+\begin{itemize}
+    \item $s$: Posição final no instante $t$ (\unit{m}).
+    \item $s_0$: Posição inicial no instante $t=0$ (\unit{m}).
+    \item $v$: Velocidade escalar constante (\unit{m/s}).
+    \item $t$: Tempo decorrido (\unit{s}).
+\end{itemize}
+
+\begin{example}
+Um móvel parte da posição \unit{20}{m} com uma velocidade constante de \unit{5}{m/s}. Sua função horária será $s = 20 + 5t$. No instante $t = \unit{10}{s}$, sua posição será:
+\begin{equation*}
+    s = 20 + 5(10) = 20 + 50 = \unit{70}{m}
+\end{equation*}
+\end{example}
