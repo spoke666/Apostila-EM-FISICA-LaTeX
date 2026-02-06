@@ -8,6 +8,10 @@
 *.synctex.gz
 *.bbl
 *.blg
+*.lof
+*.lot
+*.nav
+*.snm
 
 # Cache do Sistema
 .cache/
