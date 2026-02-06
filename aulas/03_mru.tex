@@ -45,3 +45,43 @@ Um móvel parte da posição \unit{20}{m} com uma velocidade constante de \unit{
     s = 20 + 5(10) = 20 + 50 = \unit{70}{m}
 \end{equation*}
 \end{example}
+
+\section{Análise de Dados e Tabelas}
+
+A identificação de um Movimento Retilíneo Uniforme na prática ocorre através da coleta de posições em intervalos de tempo conhecidos. A principal característica matemática para identificar o MRU em uma tabela é observar que, para intervalos de tempo iguais ($\Delta t$), o deslocamento ($\Delta s$) também deve ser igual.
+
+\subsection{Identificação Experimental}
+
+Considere um móvel cujas posições foram registradas conforme a tabela abaixo:
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{ccccccc}
+        \toprule
+        \textbf{Tempo} $t$ (s) & 0 & 1 & 2 & 3 & 4 & 5 \\ \midrule
+        \textbf{Posição} $s$ (m) & 10 & 15 & 20 & 25 & 30 & 35 \\ \bottomrule
+    \end{tabular}
+    \caption{Registro de posições de um móvel em MRU.}
+    \label{tab:dados_mru}
+\end{table}
+
+Ao analisarmos os dados da Tabela \ref{tab:dados_mru}, notamos que:
+\begin{itemize}
+    \item No instante $t=0$, a posição inicial é $s_0 = \unit{10}{m}$.
+    \item A cada \unit{1}{s} que passa, a posição aumenta exatamente \unit{5}{m}.
+    \item A razão $\frac{\Delta s}{\Delta t} = \frac{5}{1} = \unit{5}{m/s}$ é constante.
+\end{itemize}
+
+\subsection{Construção da Função Horária a partir de Dados}
+
+Para montar a função horária $s = s_0 + v \cdot t$ a partir de uma tabela, seguimos dois passos simples:
+\begin{enumerate}
+    \item Identificamos $s_0$ observando o valor de $s$ quando $t=0$.
+    \item Calculamos a velocidade $v$ escolhendo quaisquer dois pontos da tabela e aplicando $v = \frac{s_2 - s_1}{t_2 - t_1}$.
+\end{enumerate}
+
+No caso da tabela anterior:
+\begin{equation*}
+    s_0 = \unit{10}{m} \quad \text{e} \quad v = \frac{20 - 15}{2 - 1} = \unit{5}{m/s}
+\end{equation*}
+Logo, a função horária que descreve esses dados é: $s = 10 + 5t$.
