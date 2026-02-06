@@ -1,17 +1,15 @@
 # Auxiliares do LaTeX
 *.aux
-*.log
-*.toc
-*.out
-*.fdb_latexmk
-*.fls
-*.synctex.gz
 *.bbl
+*.bcf
 *.blg
 *.lof
-*.lot
-*.nav
-*.snm
+*.log
+*.lol
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
 
 # Cache do Sistema
 .cache/
