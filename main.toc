@@ -1,41 +1,44 @@
 \babel@toc {brazilian}{}\relax 
-\contentsline {chapter}{\numberline {1}Introdução à Física: Grandezas Físicas}{1}{chapter.4}%
-\contentsline {section}{\numberline {1.1}Fenômenos Observáveis}{1}{section.5}%
-\contentsline {section}{\numberline {1.2}O Sistema Internacional de Unidades (SI)}{1}{section.6}%
-\contentsline {subsection}{\numberline {1.2.1}Conversão de Unidades e Regra de Três}{2}{subsection.9}%
-\contentsline {subsection}{\numberline {1.2.2}Método do Fator de Conversão (Cancelamento de Unidades)}{2}{subsection.10}%
-\contentsline {section}{\numberline {1.3}Notação Científica}{2}{section.11}%
-\contentsline {section}{\numberline {1.4}Ordem de Grandeza}{3}{section.19}%
-\contentsline {section}{\numberline {1.5}Questões Conceituais}{4}{section.22}%
-\contentsline {section}{\numberline {1.6}Exercícios de Fixação}{5}{section.27}%
-\contentsline {section}{\numberline {1.7}Problemas Aplicados}{6}{section.47}%
-\contentsline {chapter}{\numberline {2}Cinemática}{7}{chapter.56}%
-\contentsline {section}{\numberline {2.1}Conceitos Fundamentais}{7}{section.57}%
-\contentsline {subsection}{\numberline {2.1.1}Referencial e Sistemas de Coordenadas}{7}{subsection.58}%
-\contentsline {subsubsection}{Sistema de Coordenadas e a Origem}{7}{subsubsection*.59}%
-\contentsline {subsubsection}{Exemplo Prático}{8}{subsubsection*.62}%
-\contentsline {subsection}{\numberline {2.1.2}Ponto Material e Corpo Extenso}{8}{subsection.63}%
-\contentsline {subsubsection}{Critério de Diferenciação}{8}{subsubsection*.65}%
-\contentsline {subsection}{\numberline {2.1.3}Trajetória}{8}{subsection.66}%
-\contentsline {section}{\numberline {2.2}Tipos de Movimento}{9}{section.67}%
-\contentsline {section}{\numberline {2.3}Velocidade}{9}{section.69}%
-\contentsline {subsection}{\numberline {2.3.1}Velocidade Instantânea}{10}{subsection.70}%
-\contentsline {section}{\numberline {2.4}Velocidade Relativa}{10}{section.72}%
-\contentsline {subsection}{\numberline {2.4.1}Movimento na mesma direção e sentido}{10}{subsection.73}%
-\contentsline {subsection}{\numberline {2.4.2}Movimento na mesma direção e sentidos opostos}{10}{subsection.75}%
-\contentsline {subsection}{\numberline {2.4.3}Tempo de Encontro e Ultrapassagem}{11}{subsection.77}%
-\contentsline {subsubsection}{Exemplo de Fixação: Ultrapassagem}{11}{subsubsection*.79}%
-\contentsline {subsection}{\numberline {2.4.4}Velocidade Escalar Média}{11}{subsection.80}%
-\contentsline {section}{\numberline {2.5}Exemplos de Fixação}{12}{section.84}%
-\contentsline {section}{\numberline {2.6}Questões:}{13}{section.96}%
-\contentsline {section}{\numberline {2.7}Exercícios}{14}{section.109}%
-\contentsline {section}{\numberline {2.8}Problemas}{16}{section.132}%
+\contentsline {chapter}{\numberline {1}Introdução à Física: Grandezas Físicas}{1}{chapter.3}%
+\contentsline {section}{\numberline {1.1}Fenômenos Observáveis}{1}{section.4}%
+\contentsline {section}{\numberline {1.2}O Sistema Internacional de Unidades (SI)}{1}{section.5}%
+\contentsline {subsection}{\numberline {1.2.1}Conversão de Unidades e Regra de Três}{2}{subsection.8}%
+\contentsline {subsection}{\numberline {1.2.2}Método do Fator de Conversão (Cancelamento de Unidades)}{2}{subsection.9}%
+\contentsline {section}{\numberline {1.3}Notação Científica}{2}{section.10}%
+\contentsline {section}{\numberline {1.4}Ordem de Grandeza}{3}{section.18}%
+\contentsline {section}{\numberline {1.5}Questões Conceituais}{4}{section.21}%
+\contentsline {section}{\numberline {1.6}Exercícios de Fixação}{5}{section.26}%
+\contentsline {section}{\numberline {1.7}Problemas Aplicados}{6}{section.46}%
+\contentsline {chapter}{\numberline {2}Cinemática}{7}{chapter.55}%
+\contentsline {section}{\numberline {2.1}Conceitos Fundamentais}{7}{section.56}%
+\contentsline {subsection}{\numberline {2.1.1}Referencial e Sistemas de Coordenadas}{7}{subsection.57}%
+\contentsline {subsubsection}{Sistema de Coordenadas e a Origem}{7}{subsubsection*.58}%
+\contentsline {subsubsection}{Exemplo Prático}{8}{subsubsection*.61}%
+\contentsline {subsection}{\numberline {2.1.2}Ponto Material e Corpo Extenso}{8}{subsection.62}%
+\contentsline {subsubsection}{Critério de Diferenciação}{8}{subsubsection*.64}%
+\contentsline {subsection}{\numberline {2.1.3}Trajetória}{8}{subsection.65}%
+\contentsline {section}{\numberline {2.2}Tipos de Movimento}{9}{section.66}%
+\contentsline {section}{\numberline {2.3}Velocidade}{9}{section.68}%
+\contentsline {subsection}{\numberline {2.3.1}Velocidade Instantânea}{10}{subsection.69}%
+\contentsline {section}{\numberline {2.4}Velocidade Relativa}{10}{section.71}%
+\contentsline {subsection}{\numberline {2.4.1}Movimento na mesma direção e sentido}{10}{subsection.72}%
+\contentsline {subsection}{\numberline {2.4.2}Movimento na mesma direção e sentidos opostos}{10}{subsection.74}%
+\contentsline {subsection}{\numberline {2.4.3}Tempo de Encontro e Ultrapassagem}{11}{subsection.76}%
+\contentsline {subsubsection}{Exemplo de Fixação: Ultrapassagem}{11}{subsubsection*.78}%
+\contentsline {subsection}{\numberline {2.4.4}Velocidade Escalar Média}{11}{subsection.79}%
+\contentsline {section}{\numberline {2.5}Exemplos de Fixação}{12}{section.83}%
+\contentsline {section}{\numberline {2.6}Questões:}{13}{section.95}%
+\contentsline {section}{\numberline {2.7}Exercícios}{14}{section.108}%
+\contentsline {section}{\numberline {2.8}Problemas}{16}{section.131}%
+\contentsline {chapter}{\numberline {3}Movimento Retilíneo Uniforme (MRU)}{17}{chapter.143}%
+\contentsline {section}{\numberline {3.1}Definição e Características}{17}{section.144}%
+\contentsline {section}{\numberline {3.2}Função Horária da Posição}{17}{section.145}%
 \renewcommand {\chaptername }{Apêndice}
-\contentsline {chapter}{\numberline {A}Sistema Internacional de Unidades}{18}{appendix.145}%
-\contentsline {chapter}{\numberline {B}Prefixos}{19}{appendix.148}%
-\contentsline {chapter}{\numberline {C}Alfabeto Grego}{20}{appendix.150}%
-\contentsline {chapter}{\numberline {D}Fatores de Conversão}{21}{appendix.152}%
-\contentsline {chapter}{\numberline {E}Constantes Físicas Fundamentais}{22}{appendix.155}%
-\contentsline {section}{\numberline {E.1}Constantes Universais}{22}{section.156}%
-\contentsline {section}{\numberline {E.2}Propriedades Térmicas da Matéria}{22}{section.158}%
+\contentsline {chapter}{\numberline {A}Sistema Internacional de Unidades}{19}{appendix.150}%
+\contentsline {chapter}{\numberline {B}Prefixos}{20}{appendix.153}%
+\contentsline {chapter}{\numberline {C}Alfabeto Grego}{21}{appendix.155}%
+\contentsline {chapter}{\numberline {D}Fatores de Conversão}{22}{appendix.157}%
+\contentsline {chapter}{\numberline {E}Constantes Físicas Fundamentais}{23}{appendix.160}%
+\contentsline {section}{\numberline {E.1}Constantes Universais}{23}{section.161}%
+\contentsline {section}{\numberline {E.2}Propriedades Térmicas da Matéria}{23}{section.163}%
 \contentsfinish 
