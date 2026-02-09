@@ -283,11 +283,11 @@ Agora, transporte os dados para o papel seguindo estas orientações:
     \end{equation}
 \end{enumerate}
 
-\section{Exercícios Conceitual de Fixação}
+\section{Questões:}
 
 Responda às questões abaixo com base nos conceitos de Movimento Retilíneo Uniforme (MRU) e na análise de seus gráficos.
 
-\begin{enumerate}[label=\textbf{Questão \arabic*:}]
+\begin{enumerate}
     
     \item No gráfico de posição por tempo ($s \times t$) do MRU, a inclinação da reta em relação ao eixo horizontal fornece uma informação física fundamental. Essa inclinação é numericamente igual a:
     \begin{enumerate}[label=(\alph*)]
@@ -331,9 +331,9 @@ Responda às questões abaixo com base nos conceitos de Movimento Retilíneo Uni
 
 \end{enumerate}
 
-\section{Exercícios de Fixação: MRU}
+\section{Exercícios de Fixação:}
 
-\begin{enumerate}[label=\textbf{Exercício \arabic*:}, leftmargin=*]
+\begin{enumerate}
 
     % Exercício 1: Interpretação de Tabela
     \item Um móvel realiza um movimento retilíneo cuja tabela de posições em função do tempo é dada abaixo:
@@ -359,8 +359,36 @@ Responda às questões abaixo com base nos conceitos de Movimento Retilíneo Uni
 
     % Exercício 4: Análise Gráfica (Progressivo/Retrógrado)
     \item Um objeto move-se de acordo com o gráfico $s \times t$ abaixo. Determine a velocidade do objeto e classifique o movimento como progressivo ou retrógrado.
-    \parencite{exemplo_grafico_2026}
+    \cref{fig:exemplo_grafico_2026}
     % (Inserir aqui o código TikZ simplificado da reta descendo de 40 para 0 em 8s)
+
+    \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            axis lines = left,
+            xlabel = {$t$ (s)},
+            ylabel = {$s$ (m)},
+            % Ajuste para 5 segundos
+            xmin=0, xmax=6,
+            ymin=0, ymax=50,
+            xtick={0, 1, 2, 3, 4, 5},
+            ytick={0, 10, 20, 30, 40},
+            grid = major,
+            grid style = {dashed, gray!30},
+            width=0.8\textwidth, height=7cm
+        ]
+
+            \addplot [domain=0:5, thick, red] {40 - 8*x} 
+                node[pos=0.8, sloped, above] {};
+
+            \draw [dashed, black!60] (axis cs:3.33,0) -- (axis cs:3.33,13.33);
+            \draw [dashed, black!60] (axis cs:0,13.33) -- (axis cs:3.33,13.33);
+            
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Gráfico que descreve o movimento de um objeto móvel. \label{fig:exemplo_grafico_2026}}
+\end{figure}
 
     % Exercício 5: Conversão de Unidades
     \item A função horária de um projétil é $s = 100 + 20t$ (SI). Qual será a posição deste projétil, em quilômetros, após \qty{2}{minutos} de movimento?
@@ -382,9 +410,9 @@ Responda às questões abaixo com base nos conceitos de Movimento Retilíneo Uni
 
 \end{enumerate}
 
-\section{Problemas de Aplicação: MRU}
+\section{Problemas:}
 
-\begin{enumerate}[label=\textbf{Problema \arabic*:}, leftmargin=*]
+\begin{enumerate}
 
     % Problema 1: Encontro de Móveis com Sentidos Opostos
     \item Duas cidades, A e B, estão separadas por uma distância de \qty{300}{km}. No mesmo instante, um carro parte da cidade A em direção a B com velocidade constante de \qty{80}{km/h}, enquanto um caminhão parte de B em direção a A com velocidade constante de \qty{70}{km/h}. 
