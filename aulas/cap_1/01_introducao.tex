@@ -1,10 +1,15 @@
+%====================================================
+% ----                  Cap 1
+%====================================================
 \chapter{Introdução à Física: Grandezas Físicas}
 \label{cap:introducao}
+%----------------------------------------------------
 
 A Física é a ciência que estuda os fenômenos fundamentais da natureza, buscando leis gerais que descrevam o comportamento da matéria e da energia \parencite{nussenzveig2002}.
 
 Compreender o funcionamento do universo requer a medição precisa de diversas propriedades físicas, conhecidas como \textbf{grandezas físicas}. Por exemplo, a \textit{massa}, o \textit{tempo} e o \textit{comprimento} são grandezas fundamentais que descrevem aspectos essenciais dos objetos e eventos ao nosso redor. 
 
+%=======================================
 \section{Fenômenos Observáveis}
 Os fenômenos da natureza podem ser classificados em dois tipos principais: 
 \begin{itemize}
@@ -12,6 +17,7 @@ Os fenômenos da natureza podem ser classificados em dois tipos principais:
     \item \textbf{Fenômeno Químico:} Altera a composição da matéria. Exemplo: A combustão de uma madeira.
 \end{itemize}
 
+%=======================================
 \section{O Sistema Internacional de Unidades (SI)}
 Para que a comunicação científica seja universal, utiliza-se o SI (Sistema Internacional de Unidades de Medida). Esse sistema foi criado com o intuito de padronizar e calibrar instrumentos no mundo todo. Essas grandezas são importantíssimas; vale a pena decorar, guardar e destacar, pois as revisitaremos no decorrer do ano. Na tabela \ref{tab:SI}, podemos observar as unidades que estudaremos:
 
@@ -80,6 +86,7 @@ Este método reduz drasticamente a chance de erro ao lidar com unidades de área
     1 \text{ m}^2 = \left( \frac{100 \text{ cm}}{1 \text{ m}} \right)^2 = \frac{100^2 \text{ cm}^2}{1^2 \text{ m}^2} = 10.000 \text{ cm}^2  
 \end{equation*}
 
+%=======================================
 \section{Notação Científica}
 Na física, lidamos com dimensões que variam do átomo às galáxias. Utilizamos a notação científica na forma geral \ref{eq:notacao_cientifica} para expressar esses valores de maneira compacta e clara.
 \begin{equation}
@@ -106,6 +113,7 @@ Na prática, o objetivo é reduzir o número de zeros, facilitando cálculos e c
         \textbf{Observe que o zero entre dois números, deve ser expresso após a vírgula e entra na contagem.}
 \end{itemize}
 
+%=======================================
 \section{Ordem de Grandeza}
 A ordem de grandeza é uma forma de classificar a magnitude de um número, expressando-a  numa potência de 10. Ela é útil para comparar quantidades e entender a escala dos fenômenos físicos. A ordem de grandeza é determinada pelo expoente na notação científica mais o fator de proximidade logarítmico.
 \begin{itemize}
@@ -141,72 +149,6 @@ A ordem de grandeza é uma forma de classificar a magnitude de um número, expre
 \end{itemize}
 \textbf{Observação:} A raiz quadrada de 10 ($\sqrt{10}$) é aproximadamente 3,16. Portanto, ao determinar a ordem de grandeza, compare o valor de $N$ com 3,16 para decidir se deve usar o expoente ou somar 1. Segundo detalhe, cuidado com números negativos, pois ao somar 1 em um número negativo, o valor se aproxima de zero.
 
-\section{Questões Conceituais}
-
-\begin{enumerate}
-    \item Explique por que a criação do Sistema Internacional de Unidades (SI) foi um marco importante para o desenvolvimento tecnológico e comercial entre as nações.
-    \item Diferencie fenômeno físico de fenômeno químico, citando um exemplo do cotidiano para cada um que não tenha sido mencionado no texto.
-    \item No estudo da ordem de grandeza, por que utilizamos o valor de $\sqrt{10} \approx 3,16$ como critério de corte?
-    \item O que define se um número está ou não escrito corretamente em notação científica? Cite o intervalo permitido.
-\end{enumerate}
-
-\clearpage
-
-\section{Exercícios de Fixação}
-
-\subsection*{Notação Científica e Ordem de Grandeza}
-\begin{enumerate}[resume]
-    \item Escreva os valores abaixo em notação científica:
-        \begin{enumerate}
-            \item $0,00000000025$ \unit{m} (raio atômico)
-            \item $149.600.000.000$ \unit{m} (distância Terra-Sol)
-            \item $0,000001$ \unit{s} (tempo de um processo eletrônico)
-            \item $5.970.000.000.000.000.000.000.000$ \unit{kg} (massa da Terra)
-            \item $0,00000000016$ \unit{C} (carga elementar)
-        \end{enumerate}
-    \item Determine a Ordem de Grandeza (OG) para cada item do exercício anterior.
-\end{enumerate}
-
-\subsection*{Conversão de Unidades (SI)}
-\begin{enumerate}[resume]
-    \item Converta as seguintes medidas para a unidade padrão do SI utilizando Regra de Três:
-        \begin{enumerate}
-            \item \qty{1500}{cm} para metros.
-            \item \qty{2,5}{km} para metros.
-            \item \qty{300}{min} para segundos.
-            \item \qty{0,8}{kg} para gramas (conversão auxiliar).
-            \item \qty{2}{h} para segundos.
-        \end{enumerate}
-    \item Utilize o Método do Fator de Conversão (cancelamento) para converter:
-        \begin{enumerate}
-            \item \qty{108}{km/h} para \unit{m/s}.
-            \item \qty{5}{m/s} para \unit{km/h}.
-            \item \qty{2}{g/cm^3} para \unit{kg/m^3}.
-            \item \qty{1}{dia} para segundos.
-            \item \qty{10}{m^2} para \unit{cm^2}.
-        \end{enumerate}
-\end{enumerate}
-
-\clearpage
-
-\section{Problemas Aplicados}
-
-\begin{enumerate}[resume]
-    \item \textbf{(Dados Reais)} A luz viaja no vácuo a uma velocidade constante de aproximadamente \qty{300000}{km/s}. 
-    \begin{enumerate}
-        \item Converta esta velocidade para metros por segundo (\unit{m/s}) usando notação científica.
-        \item Qual a Ordem de Grandeza desta velocidade no SI?
-    \end{enumerate}
-
-    \item \textbf{(Estimativa)} Um estudante consome, em média, $2$ litros de água por dia. Quantos mililitros (\unit{ml}) ele terá consumido ao final de um ano ($365$ dias)? Expresse em notação científica.
-
-    \item \textbf{(Desafio de Fermi)} Estime quantas vezes o coração de um adolescente bate em um único dia, considerando uma frequência média de \qty{75}{batimentos/min}. Apresente o resultado e sua Ordem de Grandeza.
-
-    \item \textbf{(Dados Reais)} A espessura de uma folha de papel comum é de aproximadamente \qty{0,1}{mm}. 
-    \begin{enumerate}
-        \item Expresse essa espessura em metros (\unit{m}) usando notação científica.
-        \item Se empilharmos $1$ milhão ($10^6$) dessas folhas, qual será a altura da pilha em quilômetros (\unit{km})?
-    \end{enumerate}
-\end{enumerate}
-
-\clearpage
+% --- FIM DA TEORIA ---
+\newpage
+\input{aulas/cap_1/01_exercicios.tex}

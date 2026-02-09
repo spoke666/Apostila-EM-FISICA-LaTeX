@@ -1,0 +1,179 @@
+%====================================================
+% ----                  Cap 3
+%====================================================
+\renewcommand{\caminhograficos}{aulas/cap_3/graficos}
+\chapter{Movimento Retilíneo Uniforme (MRU)}
+\label{cap:mru}
+%----------------------------------------------------
+
+O Movimento Retilíneo Uniforme (MRU) é o caso mais simples de movimento, servindo como base para a compreensão de dinâmicas mais complexas. Sua principal característica é a manutenção de uma velocidade constante ao longo de uma trajetória reta.
+
+%=======================================
+\section{Definição e Características}
+
+No MRU, o móvel percorre distâncias iguais em intervalos de tempo iguais. Isso implica que:
+\begin{itemize}
+    \item A trajetória é uma linha reta.
+    \item A velocidade escalar instantânea é constante e igual à velocidade escalar média ($v = v_m$).
+    \item A aceleração é nula ($a = 0$), pois não há variação no módulo da velocidade.
+\end{itemize}
+
+%=======================================
+\section{Função Horária da Posição}
+
+A função horária permite determinar a posição ($s$) de um móvel em qualquer instante ($t$), desde que conheçamos sua posição inicial ($s_0$) e sua velocidade ($v$). Partindo da definição de velocidade média:
+
+\begin{equation}
+    v = \frac{\Delta s}{\Delta t} \implies v = \frac{s - s_0}{t - t_0}
+\end{equation}
+
+Considerando o instante inicial como $t_0 = 0$, temos:
+\begin{equation}
+    v = \frac{s - s_0}{t} \implies v \cdot t = s - s_0
+\end{equation}
+
+Isolando a posição final ($s$), obtemos a \textbf{Função Horária do MRU}\parencite{halliday2012}:
+
+\begin{equation}
+    s = s_0 + v \cdot t \label{eq:sorvete}
+\end{equation}
+
+\noindent Onde:
+\begin{itemize}
+    \item $s$: Posição final no instante $t$ (\unit{m}).
+    \item $s_0$: Posição inicial no instante $t=0$ (\unit{m}).
+    \item $v$: Velocidade escalar constante (\unit{m/s}).
+    \item $t$: Tempo decorrido (\unit{s}).
+\end{itemize}
+
+\begin{example}
+Um móvel parte da posição \unit{20}{m} com uma velocidade constante de \unit{5}{m/s}. Sua função horária será $s = 20 + 5t$. No instante $t = \unit{10}{s}$, sua posição será:
+\begin{equation*}
+    s = 20 + 5(10) = 20 + 50 = \unit{70}{m}
+\end{equation*}
+\end{example}
+
+%=========================================================
+\section{Análise de Dados e Tabelas}
+
+A identificação de um Movimento Retilíneo Uniforme na prática ocorre através da coleta de posições em intervalos de tempo conhecidos. A principal característica matemática para identificar o MRU em uma tabela é observar que, para intervalos de tempo iguais ($\Delta t$), o deslocamento ($\Delta s$) também deve ser igual.
+
+\subsection{Identificação Experimental}
+
+Considere um móvel da \cref{fig:mru_veiculo}, cujas posições foram registradas conforme a tabela \cref{tab:dados_mru}. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig-3.1.png}
+    \caption{Gráfico de posição versus tempo para um MRU.}
+    \label{fig:mru_veiculo}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{ccccccc}
+        \toprule
+        \textbf{Tempo} $t$ (s) & 0 & 1 & 2 & 3 & 4 & 5 \\ \midrule
+        \textbf{Posição} $s$ (m) & 10 & 15 & 20 & 25 & 30 & 35 \\ \bottomrule
+    \end{tabular}
+    \caption{Registro de posições de um móvel em MRU.}
+    \label{tab:dados_mru}
+\end{table}
+
+Ao analisarmos os dados da Tabela \ref{tab:dados_mru}, notamos que:
+\begin{itemize}
+    \item No instante $t=0$, a posição inicial é $s_0 = \unit{10}{m}$.
+    \item A cada \unit{1}{s} que passa, a posição aumenta exatamente \unit{5}{m}.
+    \item A razão $\frac{\Delta s}{\Delta t} = \frac{5}{1} = \unit{5}{m/s}$ é constante.
+    \item Pode-se extrapolar os dados para qualquer instante $t$ usando a função horária $s = 10 + 5t$, de modo que, podemos prever a posição do móvel em instantes futuros ou passados, confirmando a natureza uniforme do movimento.
+\end{itemize}
+
+\subsection{Construção da Função Horária a partir de Dados}
+
+Para montar a função horária $s = s_0 + v \cdot t$ a partir de uma tabela, seguimos dois passos simples:
+\begin{enumerate}
+    \item Identificamos $s_0$ observando o valor de $s$ quando $t=0$.
+    \item Calculamos a velocidade $v$ escolhendo quaisquer dois pontos da tabela e aplicando $v = \frac{s_2 - s_1}{t_2 - t_1}$.
+\end{enumerate}
+
+No caso da tabela anterior:
+\begin{equation*}
+    s_0 = \unit{10}{m} \quad \text{e} \quad v = \frac{20 - 15}{2 - 1} = \unit{5}{m/s}
+\end{equation*}
+Logo, a função horária que descreve esses dados é: $s = 10 + 5t$.
+
+%=========================================================
+\section{Construção Gráfica do MRU}
+
+A análise gráfica permite identificar visualmente o comportamento da velocidade e da posição. No MRU, como a função horária $s = s_0 + v \cdot t$ é uma equação do primeiro grau, sua representação no plano $s \times t$ será sempre uma reta inclinada.
+
+\subsection{Gráficos de Posição por Tempo \texorpdfstring{($s \times t$)}{(s x t)}}
+
+Para uma melhor compreensão, dividimos os gráficos de acordo com o sentido do movimento em relação à trajetória:
+
+%=================================
+\incluirgrafico{grafico_3.1.tex}
+%=================================
+
+Na \cref{fig:mru_prog}, a reta possui inclinação positiva, indicando que a posição do móvel aumenta com o tempo, caracterizando um movimento progressivo. Já na \cref{fig:mru_ret}, a reta tem inclinação negativa, mostrando que a posição diminui com o tempo, caracterizando um movimento retrógrado. 
+
+\subsection{Gráfico Velocidade x Tempo \texorpdfstring{($v \times t$)}{(v x t)}}
+
+No MRU, a velocidade é constante e diferente de zero. Graficamente, isso resulta em uma **reta horizontal**.
+
+\textbf{Propriedade da Área:} A área entre a reta da velocidade e o eixo do tempo é numericamente igual ao deslocamento ($\Delta s$) do móvel no intervalo de tempo selecionado.
+
+%=================================
+\incluirgrafico{grafico_3.2.tex}
+%=================================
+
+%=========================================================
+\section{Passo a Passo: Construindo o Gráfico no Caderno}
+
+Para transformar a equação horária $s = 10 + 5t$ em um gráfico profissional usando régua e papel, siga estas etapas:
+
+\subsection*{1º Passo: Construção da Tabela de Dados}
+Não tente desenhar o gráfico direto. Primeiro, calcule pelo menos 3 pontos para garantir que sua reta não fique "torta".
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l|cccccc}
+        \toprule
+        \textbf{Instante $t$ (s)} & 0 & 1 & 2 & 3 & 4 & 5 \\ \midrule
+        \textbf{Cálculo} & $10+5(0)$ & $10+5(1)$ & $10+5(2)$ & $10+5(3)$ & $10+5(4)$ & $10+5(5)$ \\
+        \textbf{Posição $s$ (m)} & \textbf{10} & \textbf{15} & \textbf{20} & \textbf{25} & \textbf{30} & \textbf{35} \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+Com isso chegamos a \ref{tab:dados_mru} apresentada anteriormente, que é a base para a constrição gráfica. 
+
+\subsection*{2º Passo: Definição da Escala (Uso da Régua)}
+Este é o segredo para o gráfico caber na folha. Vamos converter os valores físicos em centímetros reais:
+
+\begin{itemize}
+    \item \textbf{No eixo horizontal (Tempo):} Adote \textbf{1 cm = 1 s}. Se seu gráfico vai até 10 s, desenhe uma linha de 10 cm.
+    \item \textbf{No eixo vertical (Posição):} Adote \textbf{1 cm = 10 m}. Como precisamos chegar a 60 m, desenhe uma linha de 6 cm.
+    \item \textbf{Observação:} Em situações diversas, é recomendado pegar o maior valor e subtrair do menor para encontrar o intervalo de variação, e então escolher pontos estratégicos dentro desse intervalo para garantir uma boa representação gráfica. Recomenda-se usar valores redondos para facilitar na hora de marcar os pontos. Por regra geral, é interessante escolher uma escala que permita que o gráfico ocupe a maior parte da folha, mas sem ultrapassá-la. Se os valores forem muito grandes ou muito pequenos, ajuste a escala para garantir que o gráfico seja legível e bem distribuído na página.
+\end{itemize}
+
+\subsection*{3º Passo: Plotagem e Destaques Geométricos}
+Agora, transporte os dados para o papel seguindo estas orientações:
+
+%=================================
+\incluirgrafico{grafico_3.3.tex}
+%=================================
+
+\begin{enumerate}
+    \item \textbf{Marque o $s_0$:} É o ponto onde a reta toca o eixo vertical (em $t=0$).
+    \item \textbf{Trace as projeções:} Use linhas tracejadas para ligar o tempo à posição correspondente (ex: 6 s em 40 m).
+    \item \textbf{Desenhe a reta:} Una os pontos. No MRU, a linha \textbf{deve} ser perfeitamente reta.
+    \item \textbf{Observe que:} Os intervalos de tempo iguais (ex: 0-2 s, 2-4 s) correspondem a deslocamentos iguais (ex: 10 m). Isso é a essência do MRU.
+    \item \textbf{Inclinação:} A inclinação da reta é diretamente proporcional à velocidade. Quanto mais inclinada, maior a velocidade. No exemplo, a inclinação é constante, confirmando o caráter uniforme do movimento. Com isso:
+    \begin{equation}
+        v = \tan(\alpha) = \frac{\Delta s}{\Delta t}  \implies v = \frac{40 - 20}{6 - 2} = 5m/s
+    \end{equation}
+\end{enumerate}
+
+% --- FIM DA TEORIA ---
+\newpage
+\input{aulas/cap_3/03_exercicios.tex}

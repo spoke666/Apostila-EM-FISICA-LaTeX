@@ -1,0 +1,51 @@
+\begin{figure}[H]
+    \centering
+    % --- Gráfico Progressivo ---
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{axis}[
+            axis lines = left,
+            xlabel = {$t$ (s)},
+            ylabel = {$s$ (m)},
+            width=0.99\linewidth, height=6cm, % Ajustado para caber na subfigura
+            xmin=0, xmax=5,
+            ymin=0, ymax=40,
+            xtick={0,1,2,3,4,5},
+            ytick={10,20,30},
+            grid = major,
+            grid style={dashed, gray!30}
+        ]
+        \addplot [domain=0:5, thick, blue] {10 + 5*x};
+        \node[blue, font=\small] at (axis cs: 1.5, 30) {Inclinação $> 0$};
+        \end{axis}
+        \end{tikzpicture}
+        \caption{Movimento Progressivo ($v > 0$): A posição aumenta com o tempo.}
+        \label{fig:mru_prog}
+    \end{subfigure}
+    \hfill
+    % --- Gráfico Retrógrado ---
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+        \begin{axis}[
+            axis lines = left,
+            xlabel = {$t$ (s)},
+            ylabel = {$s$ (m)},
+            width=0.99\linewidth, height=6cm, % Ajustado para simetria
+            xmin=0, xmax=5,
+            ymin=0, ymax=40,
+            xtick={0,1,2,3,4,5},
+            ytick={10,20,30},
+            grid = major,
+            grid style={dashed, gray!30}
+        ]
+        \addplot [domain=0:5, thick, red] {35 - 5*x};
+        \node[red, font=\small] at (axis cs: 1.5, 10) {Inclinação $< 0$};
+        \end{axis}
+        \end{tikzpicture}
+        \caption{Movimento Retrógrado ($v < 0$): A posição diminui com o tempo.}
+        \label{fig:mru_ret}
+    \end{subfigure}
+    \caption{Comparação entre os gráficos de posição por tempo para diferentes sentidos de velocidade no MRU.}
+\end{figure}

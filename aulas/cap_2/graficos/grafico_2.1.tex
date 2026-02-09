@@ -1,0 +1,48 @@
+% --- Exemplo de Sistema Unidimensional ---
+\begin{figure}[htbp]
+    \centering
+    % --- Subfigura A: Unidimensional ---
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}[>=stealth, scale=0.8]
+            \draw[->, thick] (-2.5,0) -- (2.5,0) node[right] {$s$};
+            \foreach \x in {-2,-1,0,1,2}
+                \draw (\x, 0.1) -- (\x, -0.1) node[below] {\scriptsize \x};
+            \filldraw[azul] (0,0) circle (2pt) node[above=2pt] {\scriptsize $O$};
+            \filldraw[vermelho] (1.5,0) circle (2pt);
+        \end{tikzpicture}
+        \caption{Sistema Unidimensional (Reta)}
+        \label{fig:coord_unidim}
+    \end{subfigure}
+    \hfill % Espaçamento entre as figuras
+    % --- Subfigura B: Bidimensional ---
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}[>=stealth, scale=0.6]
+            \draw[->, thick] (-1,0) -- (3,0) node[right] {$x$};
+            \draw[->, thick] (0,-1) -- (0,3) node[above] {$y$};
+            \draw[help lines, dashed] (0,0) grid (2,2);
+            \filldraw[azul] (0,0) circle (3pt) node[below left] {\scriptsize $O$};
+            \filldraw[vermelho] (2,2) circle (3pt) node[above right] {\scriptsize $P(2,2)$};
+        \end{tikzpicture}
+        \caption{Sistema Bidimensional (Plano)}
+        \label{fig:coord_bidim}
+    \end{subfigure}
+
+    \vspace{0.3cm}
+    \caption{Representação visual dos sistemas de coordenadas e suas respectivas origens ($O$).}
+    \label{fig:sistemas_coordenadas}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Movimento:} Variação da posição ao longo do tempo em relação ao referencial.
+    \item \textbf{Repouso:} Posição sem alteração ao longo do tempo de acordo com o referencial adotado.
+\end{itemize}
+
+% Exemplo de relatividade do movimento
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig-2.1.png}
+    \caption[Movimento relativo no ônibus]{Ilustração do movimento relativo de uma esfera: Na figura superior, nota-se um passageiro observando o movimento vertical de uma esfera. Na figura inferior, nota-se um observador externo visualizando uma trajetória parabólica da mesma esfera.}
+    \label{fig:movimento_relativo}
+\end{figure}
