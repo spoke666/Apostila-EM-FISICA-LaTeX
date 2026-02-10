@@ -1,11 +1,50 @@
 %====================================================
-% ----                  Cap 4
+% ----                   Cap 4
 %====================================================
 \renewcommand{\caminhograficos}{aulas/cap_4/graficos}
 \chapter[Movimento Retilíneo Uniformemente Variado (MRUV)]{Movimento Retilíneo Uniformemente Variado \protect\\ (MRUV)}
 \label{cap:mruv}
 %-----------------------------------------------------
 
+%================================
+\section{Aceleração Escalar}
+
+No estudo da cinemática, quando a velocidade de um corpo deixa de ser constante, introduzimos o conceito de \textbf{aceleração}. No Movimento Retilíneo Uniformemente Variado (MRUV), a característica fundamental é que a aceleração escalar é constante e diferente de zero.
+
+A aceleração escalar ($a$) define-se como a taxa de variação da velocidade em relação ao tempo, conforme \cref{eq:a_escalar}.
+
+%++++++++++++++++++++++++++++++++
+\begin{equation}
+    a = \frac{\Delta v}{\Delta t} = \frac{v - v_0}{t - t_0} \label{eq:a_escalar}
+\end{equation}
+%++++++++++++++++++++++++++++++++
+
+De acordo com o Sistema Internacional de Unidades (SI), a unidade de aceleração é o metro por segundo ao quadrado $m/s^2$. Por exemplo, uma aceleração de $3m/s^2$ indica que a velocidade do móvel varia $3m/s$ a cada segundo \parencite{halliday2012}.
+
+%================================
+\section{Função Horária da Velocidade}
+
+A partir da definição de aceleração escalar, considerando o instante inicial $t_0 = 0$, derivamos a função horária da velocidade, que permite calcular a velocidade do móvel em qualquer instante $t$, conforme podemos ver na \cref{eq:eq_h_v}
+
+%++++++++++++++++++++++++++++++++
+\begin{equation}
+    v = v_0 + a \cdot t \label{eq:eq_h_v}
+\end{equation}
+%++++++++++++++++++++++++++++++++
+
+Esta é uma função do primeiro grau em relação ao tempo ($t$). O gráfico $v \times t$ resultante é uma reta inclinada, onde a tangente do ângulo de inclinação representa a aceleração. Observe que os cálculos são semelhantes ao que foi feito para o MRU.
+
+\incluirgrafico{grafico_4.1.tex}
+
+%================================
+\section{Classificação do Movimento}
+
+No MRUV, o movimento pode ser classificado de acordo com a variação do módulo da velocidade ao longo do tempo. Essa classificação depende dos sinais relativos da velocidade ($v$) e da aceleração ($a$):
+
+\begin{itemize}
+    \item \textbf{Movimento Acelerado:} O módulo da velocidade aumenta com o tempo. Isso ocorre quando a velocidade e a aceleração possuem o \textbf{mesmo sinal} ($v \cdot a > 0$), tal como podemos ver em \cref{fig:mruv_acel}.
+    \item \textbf{Movimento Retardado:} O módulo da velocidade diminui com o tempo. Isso ocorre quando a velocidade e a aceleração possuem \textbf{sinais opostos} ($v \cdot a < 0$), tal como podemos ver em \cref{fig:mruv_ret}.
+\end{itemize}
 
 % --- FIM DA TEORIA ---
 \newpage

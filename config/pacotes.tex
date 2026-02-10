@@ -120,7 +120,7 @@
     literate={á}{{\'a}}1 {à}{{\`a}}1 {ã}{{\~a}}1 {é}{{\'e}}1 {ê}{{\^e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {õ}{{\~o}}1 {ú}{{\'u}}1 {ç}{{\c{c}}}1 {Á}{{\'A}}1 {Ã}{{\~A}}1 {É}{{\'E}}1 {Ê}{{\^E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Õ}{{\~O}}1 {Ú}{{\'U}}1 {Ç}{{\c{C}}}1
 }
 
-% --- 9. LINKS E REFERÊNCIAS CRUZADAS (Sempre por último) ---
+% --- 9. LINKS E REFERÊNCIAS CRUZADAS ---
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true, 
@@ -129,19 +129,24 @@
 }
 \usepackage[brazilian]{cleveref}
 
-% CONFIGURAÇÕES DE NUMERAÇÃO (Capítulo.Item)
+% --- CONFIGURAÇÕES DE NUMERAÇÃO ---
 \numberwithin{equation}{chapter} 
 \numberwithin{figure}{chapter}   
 \numberwithin{table}{chapter}    
 
-% MODIFICAÇÃO DO RÓTULO DA EQUAÇÃO: Exibe (Eq 1.1)
+% 1. Formato na linha da equação: (Eq 4.1)
+% Mantemos o "Eq" aqui para ele aparecer dentro dos parênteses na direita.
 \renewcommand{\theequation}{Eq \thechapter.\arabic{equation}}
 
-% CONFIGURAÇÕES DO CLEVEREF
-\crefname{figure}{Fig.}{Figs.}
-\Crefname{figure}{Fig.}{Figs.}
-\crefname{equation}{}{equações} 
-\Crefname{equation}{}{Equações}
+% 2. CONFIGURAÇÕES DO CLEVEREF
+% Deixamos o nome vazio {} porque o "Eq" já vem "embutido" no número acima.
+\crefname{equation}{}{}
+\Crefname{equation}{}{}
 
-% Ajusta o formato da citação no texto para (Eq 1.1)
-\crefformat{equation}{(#2#1#3)}
+% 3. Formatação da citação no texto
+% Adicionamos o "Eq." com ponto aqui. 
+% Como o #1 já traz "Eq 4.1", o resultado será "Eq. Eq 4.1". 
+% PARA EVITAR ISSO, vamos limpar o #1 apenas na citação:
+\creflabelformat{equation}{#2Eq. \thechapter.\arabic{equation}#3}
+
+\endinput
