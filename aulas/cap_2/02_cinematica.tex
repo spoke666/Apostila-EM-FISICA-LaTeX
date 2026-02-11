@@ -2,6 +2,7 @@
 % ----                  Cap 2
 %====================================================
 \renewcommand{\caminhograficos}{aulas/cap_2/graficos}
+\input{aulas/cap_2/fig_2.tex}
 \chapter{Cinemática}
 \label{cap:cinematica}
 %----------------------------------------------------
@@ -29,6 +30,10 @@ Qualquer corpo móvel ou fixo pode ser escolhido como referencial, desde que sua
 \subsubsection{Exemplo Prático}
 Considere uma rodovia: o quilômetro zero é a \textbf{origem}. Se um carro está parado no KM 20, ele está em repouso em relação à rodovia, mas em movimento em relação ao Sol \parencite{halliday2012}.
 
+%=======================
+\figBa
+%=======================
+
 O estado de movimento ou repouso depende do referencial adotado, como ilustrado na \cref{fig:movimento_relativo}.
 
 \subsection{Ponto Material e Corpo Extenso}
@@ -40,13 +45,7 @@ A classificação de um móvel depende da escala do fenômeno observado.
     \item \textbf{Corpo Extenso:} Suas dimensões são relevantes e influenciam no estudo. Ex: Um planeta sendo estudado quanto à sua rotação e inclinação do eixo.
 \end{itemize}
 
-% Exemplo de ponto material vs corpo extenso
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.6\textwidth]{fig-2.2.png}
-    \caption[Movimento relativo no ônibus]{A figura demonstra a diferença entre um ponto material e um corpo extenso. À esquerda, uma pessoa sob uma superfície muito extensa. A direita, uma pessoa em uma superfície pequena, onde suas dimensões são relevantes.}
-    \label{fig:corpo_ponto}
-\end{figure}
+\figBb
 
 \subsubsection{Critério de Diferenciação}
 Para diferenciar, comparamos o tamanho do objeto com o espaço que ele ocupa. Se o tamanho do objeto for muito menor que o espaço, ele pode ser tratado como ponto material; caso contrário, é um corpo extenso \parencite{serway2014}. A \cref{fig:corpo_ponto} ilustra essa distinção.
@@ -61,9 +60,9 @@ Para diferenciar, comparamos o tamanho do objeto com o espaço que ele ocupa. Se
     \item \textbf{Retrógrado:} $v < 0$ (contra a orientação da via).
 \end{itemize}
 
-\incluirgrafico{grafico_2.2.tex}
-
-%=======================================
+%================================
+\figBc
+%================================
 \section{Velocidade}
 Mensura a taxa de variação da posição em relação ao tempo. Pode ser classificada em:
 \begin{itemize}
@@ -77,15 +76,9 @@ No SI a velocidade é medida em metros por segundo (\unit{m/s}). Com isso, podem
 \subsection{Velocidade Instantânea}
 A velocidade instantânea é a taxa de variação da posição num intervalo de tempo próximo a zero. É mensurado com o velocímetro do veículo \ref{fig:velocimetro}. Podemos entender como um limite da velocidade média quando o intervalo de tempo tende a zero. 
 
-% Exemplo de velocidade instantânea
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.4\textwidth]{fig-2.3.png}
-    \caption[Velocímetro]{No velocímetro, a velocidade instantânea é indicada pela posição da agulha em um dado instante, refletindo a rapidez do veículo naquele momento específico.}
-    \label{fig:velocimetro}
-\end{figure}
-
-%=======================================
+%================================
+\figBd
+%================================
 \section{Velocidade Relativa}
 
 A velocidade relativa é a rapidez com que um corpo se aproxima ou se afasta de outro. Quando analisamos o movimento de dois corpos simultaneamente, muitas vezes é mais simples adotar um dos móveis como referencial "parado" e observar como o outro se move em relação a ele.
@@ -142,13 +135,9 @@ Com:
 
 Na figura \ref{fig:veiculo_trajeto}, um veículo percorre um trajeto curvilíneo, saindo da posição $S_0$ no tempo $t_0$ e chegando na posição $S$ no tempo $t$. A velocidade média do veículo é calculada pela razão entre a distância total percorrida e o tempo total gasto. Podemos determinar a velocidade desse veículo aplicando somente a \ref{eq:velocidade_media}.
 
-% Exemplo de velocidade média
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.4\textwidth]{fig-2.4.png}
-    \caption[Veículo em trajeto curvilíneo]{Na figura é retratado algumas manobras que um veículo pode realizar. Observe que, o veículo sai da posição $S_0$ no tempo $t_0$ e percorre um trajeto curvilíneo até chegar na posição $S$ no tempo $t$.}
-    \label{fig:veiculo_trajeto}
-\end{figure}
+%================================
+\figBe
+%================================
 
 Podemos compreender a velocidade média como sendo a média ponderada das velocidades instantâneas ao longo do trajeto. 
 

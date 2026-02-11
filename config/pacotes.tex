@@ -35,15 +35,12 @@
 \usepackage{cancel}    
 \usepackage{witharrows} 
 
-% CONFIGURAÇÃO DO SIUNITX (Correção para MiKTeX 25.12 / siunitx v3)
 \sisetup{
     output-decimal-marker = {,},
     separate-uncertainty = true,
     range-phrase = { a },
     exponent-product = \cdot,
-    inter-unit-product = \cdot, % Ponto entre unidades (ex: m·s⁻¹)
-    % Habilita os comandos \kilo, \metre, \second, \hour, etc.
-    % Se o erro persistir, use as siglas diretamente: \unit{80}{km/h}
+    inter-unit-product = \cdot,
 }
 
 % --- 5. TABELAS E ELEMENTOS FLUTUANTES ---
@@ -54,9 +51,15 @@
 \usepackage{subcaption} 
 \usepackage{threeparttable}
 
+% Define "Gráfico" como um elemento independente de "Figura"
+\DeclareCaptionType{grafico}[Gráfico][Lista de Gráficos]
+
 % --- 6. GRÁFICOS E TIKZ ---
 \usepackage{graphicx}
 \usepackage{xcolor}
+\definecolor{azul}{RGB}{0, 0, 255}
+\definecolor{vermelho}{RGB}{200, 50, 55}
+
 \usepackage{tikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
@@ -71,34 +74,21 @@
 }
 
 %-------Gráficos------
-% No pacotes.tex
 \newcommand{\caminhograficos}{aulas/cap_1/graficos} 
 \newcommand{\incluirgrafico}[1]{\input{\caminhograficos/#1}}
 
-
-
-% --- 7. CITAÇÕES E BIBLIOGRAFIA (BibLaTeX - Estilo Numérico Sobrescrito) ---
-\usepackage[
-    style=numeric-comp, 
-    sorting=none,       
-    backend=biber
-]{biblatex}
+% --- 7. CITAÇÕES E BIBLIOGRAFIA ---
+\usepackage[style=numeric-comp, sorting=none, backend=biber]{biblatex}
 \addbibresource{referencias.bib} 
 
-% Comando para citação sobrescrita (estilo Nature/IEEE) conforme sua instrução
 \DeclareCiteCommand{\parencite}[\mkbibsuperscript]
-  {\usebibmacro{cite:init}%
-   \usebibmacro{prenote}}
-  {\usebibmacro{citeindex}%
-   \usebibmacro{cite:comp}}
+  {\usebibmacro{cite:init}\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}\usebibmacro{cite:comp}}
   {}
-  {\usebibmacro{cite:dump}%
-   \usebibmacro{postnote}}
+  {\usebibmacro{cite:dump}\usebibmacro{postnote}}
 
 % --- 8. PROGRAMAÇÃO (Listings) ---
 \usepackage{listings}
-\definecolor{azul}{RGB}{0, 0, 255}
-\definecolor{vermelho}{RGB}{200, 50, 55}
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
@@ -120,33 +110,33 @@
     literate={á}{{\'a}}1 {à}{{\`a}}1 {ã}{{\~a}}1 {é}{{\'e}}1 {ê}{{\^e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {õ}{{\~o}}1 {ú}{{\'u}}1 {ç}{{\c{c}}}1 {Á}{{\'A}}1 {Ã}{{\~A}}1 {É}{{\'E}}1 {Ê}{{\^E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Õ}{{\~O}}1 {Ú}{{\'U}}1 {Ç}{{\c{C}}}1
 }
 
-% --- 9. LINKS E REFERÊNCIAS CRUZADAS ---
+% --- 9. LINKS, REFERÊNCIAS CRUZADAS E NUMERAÇÃO ---
 \usepackage{hyperref}
-\hypersetup{
-    colorlinks=true, 
-    allcolors=blue,
-    breaklinks=true
-}
+\hypersetup{colorlinks=true, allcolors=blue, breaklinks=true}
 \usepackage[brazilian]{cleveref}
 
-% --- CONFIGURAÇÕES DE NUMERAÇÃO ---
+% Configurações de numeração por capítulo
 \numberwithin{equation}{chapter} 
 \numberwithin{figure}{chapter}   
 \numberwithin{table}{chapter}    
+\numberwithin{grafico}{chapter}
 
-% 1. Formato na linha da equação: (Eq 4.1)
-% Mantemos o "Eq" aqui para ele aparecer dentro dos parênteses na direita.
+% Formato na linha da equação: (Eq 4.1)
 \renewcommand{\theequation}{Eq \thechapter.\arabic{equation}}
 
-% 2. CONFIGURAÇÕES DO CLEVEREF
-% Deixamos o nome vazio {} porque o "Eq" já vem "embutido" no número acima.
+% Configurações do Cleveref para Equações
 \crefname{equation}{}{}
 \Crefname{equation}{}{}
-
-% 3. Formatação da citação no texto
-% Adicionamos o "Eq." com ponto aqui. 
-% Como o #1 já traz "Eq 4.1", o resultado será "Eq. Eq 4.1". 
-% PARA EVITAR ISSO, vamos limpar o #1 apenas na citação:
 \creflabelformat{equation}{#2Eq. \thechapter.\arabic{equation}#3}
+
+% Configurações do Cleveref para Gráficos
+\crefname{grafico}{Gráfico}{Gráficos}
+\Crefname{grafico}{Gráfico}{Gráficos}
+
+% Configuração para subgráficos (subfigures dentro de gráficos)
+\crefname{subgrafico}{Gráfico}{Gráficos}
+\Crefname{subgrafico}{Gráfico}{Gráficos}
+\captionsetup[subgrafico]{labelformat=simple, labelsep=space}
+\renewcommand\thesubgrafico{(\alph{subgrafico})}
 
 \endinput

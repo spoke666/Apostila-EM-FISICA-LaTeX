@@ -1,8 +1,8 @@
 % --- Exemplo de Sistema Unidimensional ---
-\begin{figure}[htbp]
+\begin{grafico}[htbp]
     \centering
     % --- Subfigura A: Unidimensional ---
-    \begin{subfigure}[b]{0.45\textwidth}
+    \begin{subgrafico}[b]{0.45\textwidth}
         \centering
         \begin{tikzpicture}[>=stealth, scale=0.8]
             \draw[->, thick] (-2.5,0) -- (2.5,0) node[right] {$s$};
@@ -13,10 +13,10 @@
         \end{tikzpicture}
         \caption{Sistema Unidimensional (Reta)}
         \label{fig:coord_unidim}
-    \end{subfigure}
+    \end{subgrafico}
     \hfill % Espaçamento entre as figuras
     % --- Subfigura B: Bidimensional ---
-    \begin{subfigure}[b]{0.45\textwidth}
+    \begin{subgrafico}[b]{0.45\textwidth}
         \centering
         \begin{tikzpicture}[>=stealth, scale=0.6]
             \draw[->, thick] (-1,0) -- (3,0) node[right] {$x$};
@@ -27,22 +27,15 @@
         \end{tikzpicture}
         \caption{Sistema Bidimensional (Plano)}
         \label{fig:coord_bidim}
-    \end{subfigure}
+    \end{subgrafico}
 
     \vspace{0.3cm}
     \caption{Representação visual dos sistemas de coordenadas e suas respectivas origens ($O$).}
     \label{fig:sistemas_coordenadas}
-\end{figure}
+\end{grafico}
 
 \begin{itemize}
     \item \textbf{Movimento:} Variação da posição ao longo do tempo em relação ao referencial.
     \item \textbf{Repouso:} Posição sem alteração ao longo do tempo de acordo com o referencial adotado.
 \end{itemize}
 
-% Exemplo de relatividade do movimento
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.8\textwidth]{fig-2.1.png}
-    \caption[Movimento relativo no ônibus]{Ilustração do movimento relativo de uma esfera: Na figura superior, nota-se um passageiro observando o movimento vertical de uma esfera. Na figura inferior, nota-se um observador externo visualizando uma trajetória parabólica da mesma esfera.}
-    \label{fig:movimento_relativo}
-\end{figure}
