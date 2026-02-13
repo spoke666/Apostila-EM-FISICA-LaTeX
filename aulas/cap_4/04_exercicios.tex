@@ -1,0 +1,131 @@
+%================================
+\section{Questões:}
+
+\begin{enumerate}
+    \item No Movimento Retilíneo Uniformemente Variado (MRUV), o que acontece com o valor da aceleração escalar ao longo do tempo? Ela pode ser nula? Justifique sua resposta com base na definição do movimento.
+
+    \item Explique a diferença física entre um movimento classificado como \textbf{acelerado} e um movimento classificado como \textbf{retardado}. É possível um corpo ter velocidade negativa e ainda assim realizar um movimento acelerado?
+
+    \item Ao analisarmos a função horária da posição $s = s_0 + v_0 t + \frac{1}{2}at^2$, observamos que ela é uma função do segundo grau. O que a concavidade da parábola no gráfico $s \times t$ nos informa sobre a aceleração do móvel?
+
+    \item A Equação de Torricelli é frequentemente chamada de "equação independente do tempo". Em quais situações práticas a utilização dessa equação é mais vantajosa do que o uso conjunto das funções horárias da posição e da velocidade?
+
+    \item Um objeto é lançado para cima e, ao atingir a altura máxima, sua velocidade instantânea é zero. Nesse exato instante, a aceleração do objeto também é nula? Explique o seu raciocínio.
+\end{enumerate}
+
+%================================
+\section{Exercícios:}
+
+\begin{enumerate}
+    % --- Nível Fácil: Identificação e Funções Básicas ---
+    \item Um móvel realiza um movimento cuja função horária da posição é dada por $s = 10 + 2t + 5t^2$ (SI). Determine a posição inicial, a velocidade inicial e a aceleração escalar do móvel.
+
+    \item Considere a equação de Torricelli expressa por $v^2 = 100 + 64\Delta s$. Determine, por comparação direta com a equação teórica:
+    \begin{enumerate}
+        \item A velocidade inicial do móvel.
+        \item A aceleração escalar do movimento.
+    \end{enumerate}
+
+    \item Analise as funções abaixo e indique quais representam movimentos acelerados ou retardados no instante $t = 1$ s:
+    \begin{enumerate}
+        \item $s = 5 + 2t + t^2$
+        \item $v = 10 - 5t$
+        \item $v = -4 - 2t$
+    \end{enumerate}
+
+    % --- Nível Médio: Tabelas e Gráficos ---
+    \item (Análise de Tabela) A tabela abaixo mostra a velocidade de um ciclista em função do tempo.
+    \begin{center}
+        \begin{tabular}{lcccccc}
+            \toprule
+            $t$ (s) & 0 & 1 & 2 & 3 & 4 & 5 \\
+            \midrule
+            $v$ (m/s) & 2 & 5 & 8 & 11 & 14 & 17 \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+    Determine a aceleração do ciclista e escreva a função horária da velocidade para este movimento.
+
+    \item (Análise de Tabela de Posição) Um móvel em MRUV apresenta as seguintes posições:
+    \begin{center}
+        \begin{tabular}{lcccc}
+            \toprule
+            $t$ (s) & 0 & 1 & 2 & 3 \\
+            \midrule
+            $s$ (m) & 5 & 8 & 15 & 26 \\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+    Determine a aceleração escalar do móvel sabendo que a velocidade inicial no instante $t=0$ era de $1$ m/s.
+
+    \item (Interpretação Gráfica) A partir do gráfico de velocidade abaixo, calcule a distância total percorrida pelo móvel entre os instantes $t=0$ e $t=5$ s através da interpretação geométrica da área.
+
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.8]
+            \draw[->,thick] (0,0) -- (6,0) node[right] {$t(s)$};
+            \draw[->,thick] (0,0) -- (0,4) node[above] {$v(m/s)$};
+            \draw[blue, very thick] (0,2) -- (5,4);
+            \draw[dashed, gray] (5,0) node[below, black] {$5$} -- (5,4) -- (0,4) node[left, black] {$30$};
+            \draw (0,2) node[left, black] {$10$};
+            \fill[blue, opacity=0.1] (0,0) -- (0,2) -- (5,4) -- (5,0) -- cycle;
+        \end{tikzpicture}
+        \vspace{0.5em}
+        \begin{minipage}{0.38\textwidth}
+            \captionsetup{type=figure, name=Gráfico, hypcap=false, justification=centering}
+            \captionof{figure}{Velocidade escalar de um móvel em função do tempo.}
+        \end{minipage}
+    \end{minipage}
+
+    \item (Criação Gráfica) Um veículo parte do repouso com aceleração constante de $3$ m/s$^2$ durante $4$ s. Em seguida, mantém a velocidade constante por $2$ s. Esboce o gráfico $v \times t$ para esse intervalo total de $6$ s.
+
+    \item (Criação de Gráfico) Esboce o gráfico da posição pelo tempo ($s \times t$) para um móvel que parte da origem ($s_0=0$) com $v_0=0$ e aceleração $a = 2$ m/s$^2$, para o intervalo de $0$ a $3$ s.
+
+    % --- Nível Médio/Difícil: Aplicações de Fórmulas ---
+    \item (Velocidade Média) Um veículo em MRUV aumenta sua velocidade de $15$ m/s para $25$ m/s em um percurso de $200$ m. Qual foi o tempo gasto para realizar esse deslocamento? (Dica: use a média aritmética das velocidades).
+
+    \item Um objeto parte do repouso e descreve um MRUV com aceleração constante de $2$ m/s$^2$. Determine a sua velocidade e a sua posição após $10$ segundos, considerando a posição inicial $s_0 = 0$.
+
+    \item Um móvel parte da posição $s_0 = 20$ m com velocidade inicial $v_0 = -10$ m/s e aceleração constante $a = 4$ m/s$^2$. Determine o instante em que ele passa pela origem das posições ($s = 0$).
+
+    \item Um avião, ao pousar, toca a pista com uma velocidade de $70$ m/s. Sabendo que ele para após percorrer $700$ m em MRUV, determine o valor da aceleração escalar média imposta pelos freios.
+
+    % --- Nível Difícil: Problemas Complexos ---
+    \item Um carro está a uma velocidade de $108$ km/h quando o piloto pisa no freio, aplicando uma desaceleração constante de $5$ m/s$^2$. Qual a distância percorrida pelo carro até parar? (Lembre-se de converter a unidade de velocidade).
+
+    \item Um projétil atravessa uma tábua de $10$ cm de espessura. Ele entra na tábua com $400$ m/s e sai com $300$ m/s. Qual o módulo da aceleração média sofrida pelo projétil durante a travessia?
+
+    \item Um trem de $100$ m de comprimento atravessa um túnel de $200$ m. Ele entra no túnel com velocidade de $10$ m/s e sua frente sai dele com velocidade de $20$ m/s. Calcule a aceleração do trem e o tempo gasto para que ele saia \textbf{completamente} do túnel.
+\end{enumerate}
+
+%================================
+\section{Problemas:}
+
+\begin{enumerate}
+    % --- Problema 1: Encontro de Móveis (MRU vs MRUV) ---
+    \item Um motorista de aplicativo parado em um semáforo (repouso) parte com uma aceleração constante de $2$ m/s$^2$ no exato instante em que um caminhão o ultrapassa com uma velocidade constante de $14$ m/s. 
+    \begin{enumerate}
+        \item Após quanto tempo o motorista alcançará o caminhão?
+        \item Qual será a velocidade do carro no instante do encontro?
+    \end{enumerate}
+
+    % --- Problema 2: Tempo de Reação e Frenagem ---
+    \item Um condutor atento dirige seu veículo a $72$ km/h em uma via retilínea. De repente, ele vê um obstáculo e pisa no freio. Sabendo que o tempo de reação do motorista (tempo entre ver o perigo e acionar o freio) é de $0,6$ s e que os freios aplicam uma desaceleração de $5$ m/s$^2$, determine a distância total percorrida desde o instante em que ele vê o obstáculo até a parada total.
+
+    % --- Problema 3: Perseguição com Acelerações Diferentes ---
+    \item Dois ciclistas, $A$ e $B$, partem simultaneamente de um mesmo ponto. O ciclista $A$ parte com velocidade inicial de $2$ m/s e aceleração de $1$ m/s$^2$. O ciclista $B$ parte com velocidade inicial de $8$ m/s, mas com uma aceleração de apenas $0,2$ m/s$^2$. Determine a distância percorrida por ambos até que o ciclista $A$ consiga ultrapassar o ciclista $B$.
+
+    % --- Problema 4: Analise de Gráfico por Partes ---
+    \item Um trem de metrô parte de uma estação $X$, acelera uniformemente a $1,2$ m/s$^2$ durante $10$ s, mantém a velocidade constante por $30$ s e, em seguida, freia uniformemente com aceleração de $-2$ m/s$^2$ até parar na estação $Y$. 
+    \begin{enumerate}
+        \item Qual a velocidade máxima atingida pelo trem?
+        \item Qual a distância total entre as estações $X$ e $Y$?
+    \end{enumerate}
+
+    % --- Problema 5: Ultrapassagem e Comprimento do Veículo ---
+    \item Uma carreta de $25$ m de comprimento move-se com velocidade constante de $54$ km/h. Um automóvel, que está logo atrás da carreta, inicia uma ultrapassagem acelerando a $2$ m/s$^2$. Sabendo que o automóvel tem $5$ m de comprimento e que a ultrapassagem termina quando a traseira do carro passa a frente da carreta, calcule:
+    \begin{enumerate}
+        \item O tempo total de ultrapassagem.
+        \item A distância percorrida pelo automóvel durante esse processo.
+    \end{enumerate}
+\end{enumerate}
