@@ -121,17 +121,63 @@ Observe que as grandezas envolvidas são as mesmas estudadas anteriormente, mas 
     \end{minipage}
     \hfill
     \begin{minipage}{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{fig-4.2.png}
-        \captionsetup{hypcap=false}
-        \captionof{figure}{Representação esquemática de uma colisão de uma bala na madeira.}
-        \label{fig:bala_tabua}
+        \figDb
     \end{minipage}
 
     \vspace{1em}
     \textbf{Resposta:} A aceleração sofrida pelo projétil foi de $-60.000$ $m/s^2$.
 \end{example}
 
+%================================
+\section{Velocidade Média no MRUV}
+
+No Movimento Retilíneo Uniformemente Variado, a velocidade escalar varia linearmente com o tempo. Devido a essa proporcionalidade, a velocidade média ($\bar{v}$) em qualquer intervalo de tempo coincide com a média aritmética das velocidades nos instantes inicial e final desse intervalo.
+
+\subsection{Definição Matemática}
+
+A relação fundamental para a velocidade média no MRUV é:
+\begin{equation}
+    \bar{v} = \frac{v_1 + v_2}{2}
+\end{equation}
+
+Esta propriedade permite tratar o movimento variado como se fosse um movimento uniforme com velocidade constante $\bar{v}$ para calcular o deslocamento:
+\begin{equation}
+    \Delta s = \left( \frac{v_1 + v_2}{2} \right) \cdot \Delta t
+\end{equation}
+
+\subsection{Exemplo de Aplicação}
+
+%================================
+\begin{example}
+    Um móvel em MRUV parte com velocidade de $4$ $m/s$ e, após $2$ $s$, sua velocidade é de $12$ $m/s$. Calcule a distância percorrida.
+
+    \vspace{1em}
+    \begin{minipage}{0.40\textwidth}
+        \textbf{Resolução:}
+        
+        Dados fornecidos:
+        \begin{itemize}
+            \item $v_1 = 4$ $m/s$
+            \item $v_2 = 12$ $m/s$
+            \item $\Delta t = 2$ $s$
+        \end{itemize}
+
+        Cálculo do deslocamento pela velocidade média aritmética:
+        \begin{align*}
+            \Delta s &= \left( \frac{v_1 + v_2}{2} \right) \cdot \Delta t \\
+            \Delta s &= \left( \frac{4 + 12}{2} \right) \cdot 2 \\
+            \Delta s &= 8 \cdot 2 \\
+            \Delta s &= 16 \text{ } m
+        \end{align*}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+       \incluirgrafico{grafico_4.4.tex}
+    \end{minipage}
+
+    \vspace{1em}
+    \textbf{Resposta:} A distância percorrida pelo móvel foi de $16$ $m$.
+\end{example}
 % --- FIM DA TEORIA ---
 \newpage
 \input{aulas/cap_4/04_exercicios.tex}
