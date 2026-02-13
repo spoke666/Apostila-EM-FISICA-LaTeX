@@ -2,7 +2,8 @@
 % ----                   Cap 4
 %====================================================
 \renewcommand{\caminhograficos}{aulas/cap_4/graficos}
-\input{aulas/cap_4/fig_4.tex}
+\input{aulas/cap_4/04_figuras.tex}
+\input{aulas/cap_4/04_deducoes.tex}
 \chapter[Movimento Retilíneo Uniformemente Variado (MRUV)]{Movimento Retilíneo Uniformemente Variado \protect\\ (MRUV)}
 \label{cap:mruv}
 %-----------------------------------------------------
@@ -49,6 +50,87 @@ No MRUV, o movimento pode ser classificado de acordo com a variação do módulo
     \item \textbf{Movimento Acelerado:} O módulo da velocidade aumenta com o tempo. Isso ocorre quando a velocidade e a aceleração possuem o \textbf{mesmo sinal} ($v \cdot a > 0$), tal como podemos ver em \cref{fig:mruv_acel}.
     \item \textbf{Movimento Retardado:} O módulo da velocidade diminui com o tempo. Isso ocorre quando a velocidade e a aceleração possuem \textbf{sinais opostos} ($v \cdot a < 0$), tal como podemos ver em \cref{fig:mruv_ret}.
 \end{itemize}
+
+%================================
+\section{Função Horária da Posição}
+
+Enquanto no MRU a posição varia de forma linear, no MRUV, devido à presença de uma aceleração constante, a posição varia de forma quadrática em relação ao tempo. Isso significa que o gráfico da posição pelo tempo ($s \times t$) deixa de ser uma reta e passa a ser representado por uma parábola.
+
+A função horária da posição é dada pela \cref{eq:mruv_posicao}:
+
+%++++++++++++++++++++++++++++++++
+\begin{equation}
+    s = s_0 + v_0 \cdot t + \frac{1}{2} a \cdot t^2 \label{eq:mruv_posicao}
+\end{equation}
+%++++++++++++++++++++++++++++++++
+
+Nesta equação, os termos representam:
+\begin{itemize}
+    \item $s$: posição final no instante $t$ ($m$);
+    \item $s_0$: posição inicial do móvel ($m$);
+    \item $v_0$: velocidade escalar inicial ($m/s$);
+    \item $a$: aceleração escalar constante ($m/s^2$);
+    \item $t$: tempo decorrido ($s$).
+\end{itemize}
+
+\deducaoPosicaoMRUV
+
+\incluirgrafico{grafico_4.2.tex}
+
+A interpretação física da \cref{eq:mruv_posicao} nos mostra que o deslocamento total é a soma do efeito da velocidade inicial (termo linear $v_0 t$) com o efeito da aceleração (termo quadrático $\frac{1}{2} a t^2$). Se a aceleração for positiva, a concavidade da parábola será voltada para cima tal como visto em \cref{fig:concavidade_positiva}; se for negativa, será voltada para baixo conforme visto no \cref{fig:concavidade_negativa}.
+
+\incluirgrafico{grafico_4.3.tex}
+
+%================================
+\section{Equação de Torricelli}
+
+A Equação de Torricelli (\cref{eq:torricelli}) caracteriza-se por ser uma relação cinemática que independe da variável tempo ($t$). Ela é particularmente útil quando desejamos determinar a velocidade final, a velocidade inicial, a aceleração ou o deslocamento de um corpo em MRUV, conhecendo-se as demais grandezas.
+
+\begin{equation}
+    v^2 = v_0^2 + 2a\Delta s \label{eq:torricelli}
+\end{equation}
+Observe que as grandezas envolvidas são as mesmas estudadas anteriormente, mas a ausência do tempo torna esta equação especialmente útil para resolver problemas onde o tempo não é fornecido ou não é relevante para a análise.
+\deducaoTorricelli
+
+\subsection{Exemplo de Aplicação}
+
+%================================
+\begin{example}
+    Um projétil move-se com velocidade de $120$ $m/s$ quando atinge um bloco de madeira, penetrando $0,12$ $m$ em linha reta até parar. Determine a aceleração imposta pelo bloco ao projétil.
+
+    \vspace{1em}
+    \begin{minipage}{0.40\textwidth}
+        \textbf{Resolução:}
+        
+        Dados do problema:
+        \begin{itemize}
+            \item $v_0 = 120$ $m/s$
+            \item $v = 0$ $m/s$ (repouso final)
+            \item $\Delta s = 0,12$ $m$
+        \end{itemize}
+
+        Utilizando a Equação de Torricelli:
+        \begin{align*}
+            v^2 &= v_0^2 + 2a\Delta s \\
+            0^2 &= 120^2 + 2 \cdot a \cdot 0,12 \\
+            0 &= 14400 + 0,24a \\
+            -14400 &= 0,24a \\
+            a &= -\frac{14400}{0,24} \\
+            a &= -60.000 \text{ } m/s^2
+        \end{align*}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig-4.2.png}
+        \captionsetup{hypcap=false}
+        \captionof{figure}{Representação esquemática de uma colisão de uma bala na madeira.}
+        \label{fig:bala_tabua}
+    \end{minipage}
+
+    \vspace{1em}
+    \textbf{Resposta:} A aceleração sofrida pelo projétil foi de $-60.000$ $m/s^2$.
+\end{example}
 
 % --- FIM DA TEORIA ---
 \newpage

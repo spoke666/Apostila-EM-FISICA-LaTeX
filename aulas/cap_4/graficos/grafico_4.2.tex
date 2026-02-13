@@ -1,0 +1,45 @@
+\begin{grafico}[H]
+    \centering
+    \begin{tikzpicture}
+    \begin{axis}[
+        axis lines = left,
+        xlabel = {$t$},
+        ylabel = {$v$},
+        xmin=0, xmax=5,
+        ymin=0, ymax=6,
+        xtick={0, 4},
+        xticklabels={0, $t$},
+        ytick={2, 5},
+        yticklabels={$v_0$, $v$},
+        extra x ticks={0},
+        extra x tick labels={0},
+        grid style=dashed,
+    ]
+        % Área do deslocamento (Trapézio)
+        \addplot[fill=azul!20, draw=none, domain=0:4] {0.75*x + 2} \closedcycle;
+        
+        % Linha da Velocidade
+        \addplot[thick, azul, domain=0:4.5] {0.75*x + 2} 
+            node[
+                sloped,         % Faz o texto seguir a inclinação da função
+                above,          % Posiciona acima da linha
+                pos=0.4,        % Posição ao longo da reta (0 a 1)
+                anchor=south    % Garante que a base do texto aponte para a linha
+            ] {$v = v_0 + at$};
+        
+        % Linhas de projeção tracejadas
+        \draw[dashed] (axis cs:0,5) -- (axis cs:4,5);
+        \draw[dashed] (axis cs:4,0) -- (axis cs:4,5);
+        
+        % Divisão Retângulo/Triângulo para facilitar a dedução
+        \draw[dotted, thick, vermelho] (axis cs:0,2) -- (axis cs:4,2);
+        
+        % Rótulos das Áreas
+        \node at (axis cs:2,1) {\textbf{$A_1$}}; % Área do retângulo (v0 * t)
+        \node at (axis cs:2.6,3) {\textbf{$A_2$}}; % Área do triângulo (1/2 a t^2)
+        
+    \end{axis}
+    \end{tikzpicture}
+    \caption{No grafico $v \times t$ é representado o movimento retilíneo uniformemente variado (MRUV). A área sob a curva representa o deslocamento $\Delta s$.}
+    \label{fig:grafico_area_mruv}
+\end{grafico}

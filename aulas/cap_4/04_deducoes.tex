@@ -1,0 +1,50 @@
+% --- DEDUÇÃO DA POSIÇÃO NO MRUV ---
+\newcommand{\deducaoPosicaoMRUV}{
+    \begin{example}
+        A dedução desta função pode ser feita através da área sob o gráfico $v \times t$. No MRUV, a área entre o \cref{fig:grafico_area_mruv} e o eixo do tempo corresponde ao deslocamento $\Delta s$. 
+
+        Considerando o gráfico de uma reta inclinada (trapézio), a área é:
+        \[ \text{Área} = \frac{(B + b) \cdot h}{2} \implies \Delta s = \frac{(v + v_0) \cdot t}{2} \]
+        Substituindo $v = v_0 + at$:
+        \[ s - s_0 = \frac{(v_0 + at + v_0) \cdot t}{2} \]
+        \[ s - s_0 = v_0t + \frac{1}{2}at^2 \implies s = s_0 + v_0t + \frac{1}{2}at^2 \]
+    \end{example}
+}
+
+\newcommand{\deducaoTorricelli}{
+    \subsection{Dedução Matemática}
+
+    Para deduzir a equação, combinamos a Função Horária da Velocidade com a Função Horária da Posição através da eliminação do parâmetro $t$.
+
+    \begin{enumerate}
+        \item Isolamos o tempo ($t$) na Função Horária da Velocidade:
+        \begin{equation}
+            v = v_0 + at \implies t = \frac{v - v_0}{a}
+        \end{equation}
+
+        \item Substituímos a expressão de $t$ na Função Horária da Posição ($\Delta s = v_0 t + \frac{1}{2}at^2$):
+        \begin{equation}
+            \Delta s = v_0 \left( \frac{v - v_0}{a} \right) + \frac{1}{2}a \left( \frac{v - v_0}{a} \right)^2
+        \end{equation}
+
+        \item Desenvolvemos o produto notável e distribuímos os termos:
+        \begin{equation}
+            \Delta s = \frac{v_0 v - v_0^2}{a} + \frac{a(v^2 - 2v v_0 + v_0^2)}{2a^2}
+        \end{equation}
+
+        \item Simplificamos o termo $a$ e reduzimos ao mesmo denominador ($2a$):
+        \begin{equation}
+            \Delta s = \frac{2v_0 v - 2v_0^2 + v^2 - 2v v_0 + v_0^2}{2a}
+        \end{equation}
+
+        \item Multiplicando ambos os membros por $2a$ e cancelando os termos opostos:
+        \begin{equation}
+            2a\Delta s = v^2 - v_0^2
+        \end{equation}
+
+        \item Reorganizando os termos, obtemos a \textbf{Equação de Torricelli}:
+        \begin{equation}
+            v^2 = v_0^2 + 2a\Delta s
+        \end{equation}
+    \end{enumerate}
+}
